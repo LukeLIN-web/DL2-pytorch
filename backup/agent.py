@@ -24,6 +24,26 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
 	logger.info("create the policy network")
 	for name,param in policy_net.net.named_parameters():
 		logger.info(f"name: {name}, param: {param.shape}")
+	
+	if pm.POLICY_NN_MODEL is not None:
+		checkpoint = tr.load(pm.POLICY_NN_MODEL)
+		policy_net.net.load_state_dict(checkpoint['model'])
+		policy_net.optimize.load_state_dict(checkpoint['optimizer'])
+		epoch = checkpoint(['epoch']) # todo : load epoch
+		logger.info("Policy model "+pm.POLICY_NN_MODEL+" is restored.")
+
+	if pm.VALUE_NN_MODEL is not None:
+		checkpoint = tr.load(pm.VALUE_NN_MODEL)
+		value_net.net.load_state_dict(checkpoint['model'])
+		value_net.optimize.load_state_dict(checkpoint['optimizer'])
+		epoch = checkpoint(['epoch']) # todo : load epoch
+		logger.info("Value model " + pm.VALUE_NN_MODEL + " is restored.")
+
+	
+
+
+
+	
 
 
 

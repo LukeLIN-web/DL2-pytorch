@@ -10,11 +10,17 @@ LOG_MODE                      INFO
 
 NUM_AGENTS                    1                                                                                                   
 
+TRAINING_MODE                 RL                                                                                                  
+
+VALUE_NET                     1                                                                                                   
+
+SAVE_VALUE_MODEL              1                                                                                                   
+
 MODEL_DIR                     Models/                                                                                             
 
 SUMMARY_DIR                   TensorBoard/                                                                                        
 
-TRAINING_MODE                 RL                                                                                                  
+OPTIMIZER                     Adam                                                                                                
 
-VALUE_NET                     1                                                                                                   
+LEARNING_RATE                 0.0001                                                                                              
 

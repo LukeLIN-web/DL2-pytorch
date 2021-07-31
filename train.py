@@ -39,6 +39,10 @@ def log_config():
 	f.write(train_config_str)
 	f.close()
 
+
+
+
+
 def main():
 	os.system("rm -f *.log")
 	os.system("sudo pkill -9 tensorboard; sleep 3")
