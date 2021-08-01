@@ -1,4 +1,4 @@
- agent.py:11 INFO: Start central agent...
- agent.py:24 INFO: create the policy network
- agent.py:26 INFO: name: conv1.weight, param: torch.Size([6, 3, 5, 5])
- agent.py:26 INFO: name: conv1.bias, param: torch.Size([6])
+ agent.py:12 INFO: Start central agent...
+ agent.py:25 INFO: create the policy network
+ agent.py:27 INFO: name: conv1.weight, param: torch.Size([6, 3, 5, 5])
+ agent.py:27 INFO: name: conv1.bias, param: torch.Size([6])

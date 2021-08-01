@@ -53,3 +53,49 @@ else:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VAL_ON_MASTER = True  # validation on agent uses CPU instead of GPU, and may cause use up all memory, do not know why, so far it must be set true
+
+# cluster
+TESTBED = False
+LARGE_SCALE = True
+
+
+
+# dataset
+JOB_LEN_PATTERN = "Ali_Trace"  # Ali_Trace, Normal
+JOB_ARRIVAL_PATTERN = "Uniform"  # Ali_Trace, Uniform, Google_Trace, Poisson
+MAX_ARRVS_PER_TS = 3  # max number of jobs arrived in one time slot
+MAX_NUM_EPOCHS = 30000   # maximum duration of jobs, epochs. default 200
+MAX_NUM_WORKERS = 16
+TS_DURATION = 1200.0
+if LARGE_SCALE:
+	TOT_NUM_JOBS = 200  # number of jobs in one trace
+	MAX_ARRVS_PER_TS = 10  # max number of jobs arrived in one time slot
+if TESTBED:
+	TOT_NUM_JOBS = 10 # nunmber of jobs in one trace
+	MAX_NUM_EPOCHS = 1000
+	MAX_ARRVS_PER_TS = 5 # max number of jobs arrived in one time slot
+	TS_DURATION = 300.0
+	SCHED_WINDOW_SIZE = 4
+VAL_DATASET = 10  # number of traces for validation in each agent

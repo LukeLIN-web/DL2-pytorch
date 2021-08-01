@@ -1,10 +1,11 @@
 import parameters as pm
 import log
+import time
 import torch as tr
 import numpy as np
 import network
 import os
-
+import trace
 
 def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
 	logger = log.getLogger(name="central_agent", level=pm.LOG_MODE)
@@ -38,6 +39,25 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
 		value_net.optimize.load_state_dict(checkpoint['optimizer'])
 		epoch = checkpoint(['epoch']) # todo : load epoch
 		logger.info("Value model " + pm.VALUE_NN_MODEL + " is restored.")
+	
+	step = 1
+	start_t = time.time() # there might be occur problem , maybe I need move it to train.py
+
+	if pm.VAL_ON_MASTER:
+		validation_traces = []  # validation traces
+		tags_prefix = ["DRF: ", "SRTF: ", "FIFO: ", "Tetris: ", "Optimus: "]
+		for i in range(pm.VAL_DATASET):
+			validation_traces.append(trace.Trace(None).get_trace())
+			
+
+
+
+
+
+
+
+
+
 
 	
 
