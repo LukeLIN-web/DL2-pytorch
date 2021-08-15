@@ -83,7 +83,10 @@ LARGE_SCALE = True
 
 
 # dataset
-JOB_LEN_PATTERN = "Ali_Trace"  # Ali_Trace, Normal
+JOB_EPOCH_EST_ERROR = 0
+TRAIN_SPEED_ERROR = 0
+FIX_JOB_LEN = True
+JOB_LEN_PATTERN = "Normal"  # Ali_Trace, Normal
 JOB_ARRIVAL_PATTERN = "Uniform"  # Ali_Trace, Uniform, Google_Trace, Poisson
 MAX_ARRVS_PER_TS = 3  # max number of jobs arrived in one time slot
 MAX_NUM_EPOCHS = 30000   # maximum duration of jobs, epochs. default 200
@@ -99,3 +102,4 @@ if TESTBED:
 	TS_DURATION = 300.0
 	SCHED_WINDOW_SIZE = 4
 VAL_DATASET = 10  # number of traces for validation in each agent
+

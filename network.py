@@ -21,11 +21,3 @@ class PolicyNetwork:
             self.optimize =  optim.Adam( self.net.parameters(), lr = 0.0001,betas=(0.9, 0.999), eps=1e-08, weight_decay=0, amsgrad=False)
         elif pm.OPTIMIZER == "RMSProp":
             self.optimize = optim.RMSprop( self.net.parameters(),lr=self.lr, alpha=0.99, eps=1e-08, weight_decay=0, momentum=0, centered=False)
-
-
-
-class ValueNetwork:
-    def __init__(self, scope, mode, logger):
-        self.scope = scope
-        self.mode = mode
-        self.logger = logger

@@ -3,7 +3,7 @@ import os
 import parameters as pm
 import multiprocessing
 import agent 
-from torch.utils.tensorboard import SummaryWriter
+# from torch.utils.tensorboard import SummaryWriter
 
 def log_config():
 	# log all configurations in parameters and backup py
@@ -52,11 +52,11 @@ def main():
 	stats_qs = [multiprocessing.Queue() for i in range(pm.NUM_AGENTS)]
 
 	os.system("mkdir -p " + pm.MODEL_DIR + "; mkdir -p " + pm.SUMMARY_DIR)
-	if pm.EXPERIMENT_NAME is None:
-		cmd = "cd " + pm.SUMMARY_DIR + " && rm -rf *; tensorboard --logdir=./"
-		board = multiprocessing.Process(target=lambda: os.system(cmd), args=())
-		board.start()
-		time.sleep(3) # let tensorboard start first since it will clear the dir
+	# if pm.EXPERIMENT_NAME is None:
+	# 	cmd = "cd " + pm.SUMMARY_DIR + " && rm -rf *; tensorboard --logdir=./"
+	# 	board = multiprocessing.Process(target=lambda: os.system(cmd), args=())
+	# 	board.start()
+	# 	time.sleep(3) # let tensorboard start first since it will clear the dir
 
 
 	agent.central_agent(net_weights_qs, net_gradients_qs, stats_qs)
