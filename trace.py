@@ -125,13 +125,14 @@ class Trace:
                 elif pm.JOB_LEN_PATTERN == "Ali_Trace":
                     prob_sum = np.sum(self.ali_trace_job_probs[:num_type])
                     cumsum = np.cumsum(self.ali_trace_job_probs[:num_type])  # ali_trace is not define in other place
-                    type = (cumsum > prob_sum * np.random.random()).argmax() # accumalative sum
+                    type = (cumsum > prob_sum * np.random.random()).argmax()  # accumalative sum
                     index = type
                 # type = self.importance_map[type]
                 job = Job(id, type + 1, self.logger)  # type start from 1
                 id += 1
 
-                job.arrv_time = ts
+                job.arrv_time = ts  #
+                self.logger.info("job.arrv_time = ts!"+str( ts))
 
                 job.model = self.models[type]
                 job.epoch_size = self.epoch_sizes[type]

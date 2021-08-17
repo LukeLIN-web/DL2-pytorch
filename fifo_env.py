@@ -1,17 +1,20 @@
 import queue as Queue
 import time
+
 import numpy as np
+
 import parameters as pm
 from scheduler_base import Scheduler
 
 
 class FIFO_Env(Scheduler):
-    def _schedule(self):
+    def _schedule(self) -> object:
         tic = time.time()
 
         fifo_queue = Queue.PriorityQueue()
         for job in self.uncompleted_jobs:
-            fifo_queue.put((job.arrv_time, job))  # enqueue jobs into srtf queue
+            print(job.arrv_time)
+            fifo_queue.put((job.arrv_time, np.random.randint(0, 100), job))  # enqueue jobs into fifo queue
 
         flag = False
         while not fifo_queue.empty():
