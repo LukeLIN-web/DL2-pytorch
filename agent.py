@@ -1,3 +1,4 @@
+import comparison
 import parameters as pm
 import log
 import time
@@ -21,7 +22,6 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
     for name, param in policy_net.net.named_parameters():
         logger.info(f"name: {name}, param: {param.shape}")
 
-    logger.info("Policy model " + pm.POLICY_NN_MODEL + " is restored.")
 
     step = 1
     start_t = time.time()  # there might be occur problem , maybe I need move it to train.py
@@ -32,6 +32,7 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
         for i in range(pm.VAL_DATASET):
             validation_traces.append(trace.Trace(None).get_trace())
         # deep copy to avoid changes to validation_traces
+        stats = comparison.compare(copy.deepcopy(validation_traces), logger)
 
 
 

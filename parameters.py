@@ -74,7 +74,7 @@ else:
 
 
 
-VAL_ON_MASTER = True  # validation on agent uses CPU instead of GPU, and may cause use up all memory, do not know why, so far it must be set true
+VAL_ON_MASTER = True # validation on agent uses CPU instead of GPU, and may cause use up all memory, do not know why, so far it must be set true
 
 # cluster
 TESTBED = False
