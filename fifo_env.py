@@ -12,22 +12,24 @@ class FIFO_Env(Scheduler):
         tic = time.time()
 
         fifo_queue = Queue.PriorityQueue()
+        count = 0
         for job in self.uncompleted_jobs:
             print(job.arrv_time)
-            fifo_queue.put((job.arrv_time, np.random.randint(0, 100), job))  # enqueue jobs into fifo queue
+            count += 1
+            fifo_queue.put((job.arrv_time, count, job))  # enqueue jobs into fifo queue
 
         flag = False
         while not fifo_queue.empty():
-            (_, job) = fifo_queue.get()
+            (_, _, job) = fifo_queue.get()
             # allocate maximal number of workers
             # bundle one ps and one worker together by default
             for i in range(pm.MAX_NUM_WORKERS):
                 _, node = self.node_used_resr_queue.get()
                 if pm.PS_WORKER:
-                    resr_reqs = job.resr_worker + job.resr_ps
+                    resr_reqs = job.resr_worker + job.resr_ps  # bind a worker with a ps
                 else:
                     resr_reqs = job.resr_worker
-                succ, node_used_resrs = self.cluster.alloc(resr_reqs, node)
+                (succ, node_used_resrs) = self.cluster.alloc(resr_reqs, node)
                 self.node_used_resr_queue.put((np.sum(node_used_resrs), node))
                 if succ:
                     if pm.PS_WORKER and pm.BUNDLE_ACTION and False:
@@ -63,8 +65,6 @@ class FIFO_Env(Scheduler):
         self.logger.debug(self.name + ":: " + "scheduling time: " + "%.3f" % (toc - tic) + " seconds.")
         for job in self.uncompleted_jobs:
             self.logger.debug(self.name + ":: scheduling results" + " num_worker: " + str(job.num_workers))
-
-
 
 
 def test():
