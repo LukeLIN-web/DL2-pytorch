@@ -54,6 +54,7 @@ elif LARGE_SCALE:
 # dataset
 JOB_EPOCH_EST_ERROR = 0
 TRAIN_SPEED_ERROR = 0
+REAL_SPEED_TRACE = True  # whether to use real traces collected from experiment testbed
 FIX_JOB_LEN = True
 JOB_LEN_PATTERN = "Normal"  # Ali_Trace, Normal
 JOB_ARRIVAL_PATTERN = "Uniform"  # Ali_Trace, Uniform, Google_Trace, Poisson
@@ -72,4 +73,28 @@ if TESTBED:
     SCHED_WINDOW_SIZE = 4
 VAL_DATASET = 10  # number of traces for validation in each agent
 # neural network
+JOB_ORDER_SHUFFLE = False
 PS_WORKER = True  # whether consider ps and worker tasks separately or not
+JOB_SORT_PRIORITY = "Arrival"  # or Arrival, Resource, Progress, sort job based on resource or arrival
+SCHED_WINDOW_SIZE = 20  # maximum allowed number of jobs for NN input
+if LARGE_SCALE:
+    SCHED_WINDOW_SIZE = 40
+INPUTS_GATE = [("TYPE", True), ("STAY", True), ("PROGRESS", True), ("DOM_RESR", True), ("WORKERS", True)]
+
+BUNDLE_ACTION = True  # add a 'bundle' action to each job, i.e., selecting a ps and a worker by one action
+TYPE_BINARY = False  # 4 bits
+type_str, enable = INPUTS_GATE[0]
+if not enable:
+    TYPE_BINARY = False
+STATE_DIM = (3 * TYPE_BINARY + sum([enable for (_, enable) in INPUTS_GATE]),
+             SCHED_WINDOW_SIZE)  # type, # of time slots in the system so far, normalized remaining epoch, dom resource, # of workers
+SKIP_TS = True  # whether we skip the timeslot
+if PS_WORKER:
+    ACTION_DIM = 2 * SCHED_WINDOW_SIZE + SKIP_TS
+    if BUNDLE_ACTION:
+        ACTION_DIM = 3 * SCHED_WINDOW_SIZE + SKIP_TS  # output action in paper4.1
+else:
+    ACTION_DIM = SCHED_WINDOW_SIZE + SKIP_TS
+
+INPUT_RESCALE = False  # not implemented on heuristic algorithms yet
+ZERO_PADDING = True  # how to represent None job as input

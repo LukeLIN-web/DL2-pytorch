@@ -1,3 +1,7 @@
+import random
+
+import numpy as np
+
 import trace
 import log
 import parameters as pm
@@ -23,6 +27,7 @@ class Scheduler(object):
 
         self.curr_ts = 0
         self.end = False
+        self.rewards = []
 
     def step(self):
         # step by one timeslot
@@ -79,12 +84,12 @@ class Scheduler(object):
             self.rewards.append(reward)
 
     def observe(self):
-        '''
+        """
         existing resource share of each job: 0-1
         job type 0-8
         job normalized progress 0-1
         num of backlogs: percentage of total number of jobs in the trace
-        '''
+        """
         # cluster_state = self.cluster.get_cluster_state()
         # for test, first use dominant resource share of each job as input state
         q = Queue.PriorityQueue()
@@ -98,7 +103,8 @@ class Scheduler(object):
             if pm.JOB_SORT_PRIORITY == "Resource":
                 q.put((job.dom_share, job.arrv_time, job))
             elif pm.JOB_SORT_PRIORITY == "Arrival":
-                q.put((job.arrv_time, job.arrv_time, job))
+                # q.put((job.arrv_time, job.arrv_time, job))
+                q.put((job.arrv_time, random.random(), job))
             elif pm.JOB_SORT_PRIORITY == "Progress":
                 q.put((1 - job.progress / job.num_epochs, job.arrv_time, job))
 
@@ -113,12 +119,13 @@ class Scheduler(object):
             shuffle = np.random.choice(pm.SCHED_WINDOW_SIZE, pm.SCHED_WINDOW_SIZE, replace=False)
 
         # resource share / job arrival / progress
+        # the following is mentioned in the paper 4.1 policy neural network
         for order in shuffle:
             if not q.empty():
                 _, _, job = q.get()
                 j = 0
-                for (input,
-                     enable) in pm.INPUTS_GATE:  # INPUTS_GATE=[("TYPE",True), ("STAY",False), ("PROGRESS",False), ("DOM_RESR",False), ("WORKERS",True)]
+                for (input,enable) in pm.INPUTS_GATE:
+                    # INPUTS_GATE=[("TYPE",True),("STAY",False),("PROGRESS",False),("DOM_RESR",False), ("WORKERS",True)]
                     if enable:
                         if input == "TYPE":
                             if not pm.INPUT_RESCALE:
@@ -162,12 +169,33 @@ class Scheduler(object):
                           + " completed jobs: " + str(len(self.completed_jobs)) \
                           + " uncompleted jobs: " + str(len(self.uncompleted_jobs)))
         return state
-    
+
     def _state(self, label_job_id,
                role="worker"):  # whether this action selection leads to worker increment or ps increment
         # cluster_state = self.cluster.get_cluster_state()
         input = self.observe()  # NN input
         label = np.zeros(pm.ACTION_DIM)
+        for i in range(pm.SCHED_WINDOW_SIZE):
+            job = self.window_jobs[i]
+            if job and job.id == label_job_id:
+                if pm.PS_WORKER:
+                    if pm.BUNDLE_ACTION:
+                        if role == "worker":
+                            label[i * 3] = 1
+                        elif role == "ps":
+                            label[i * 3 + 1] = 1
+                        elif role == "bundle":
+                            label[i * 3 + 2] = 1
+                    else:
+                        if role == "worker":
+                            label[i * 2] = 1
+                        elif role == "ps":
+                            label[i * 2 + 1] = 1
+                else:
+                    label[i] = 1
+        self.data.append((input, label))
+
+
 
     def get_results(self):
         # get final results, including avg jct, makespan and avg reward
