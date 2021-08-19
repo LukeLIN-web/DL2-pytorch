@@ -23,7 +23,7 @@ class Trace:
         self.num_epochs = np.array([0.3, 0.96, 0.05, 0.54, 0.95, 0.46, 0.33, 0.23]) * pm.MAX_NUM_EPOCHS
         # self.num_epochs = np.array([0.39, 0.6, 0.05, 0.54, 0.99, 0.76, 0.93, 0.23]) * pm.MAX_NUM_EPOCHS
 
-        self.speed_funcs = speed.speed_funcs  # read from trace
+        self.speed_funcs = speed.speed_funcs()  # read from trace
         # job arrival patterns
         self.arrv_pattern_1 = [1, 22, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0,
                                0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1,

@@ -4,6 +4,8 @@ from scheduler_base import Scheduler
 import numpy as np
 import parameters as pm
 import random
+import log
+import trace
 
 
 class DRF_Env(Scheduler):
@@ -65,7 +67,6 @@ class DRF_Env(Scheduler):
 
 
 def test():
-    import log, trace
     np.random.seed(9973)
     logger = log.getLogger(name="test.log", level="DEBUG")
     job_trace = trace.Trace(logger).get_trace()
@@ -73,10 +74,10 @@ def test():
     while not env.end:
         env.step()
     # print(env.observe())
-    print(env.data[0])
-    input()
-    print(env.get_results())
-    print(env.get_job_jcts())
+    # print(env.data[0])
+    # input()
+    # print(env.get_results())
+    # print(env.get_job_jcts())
     for i in range(len(env.trace)):
         if i in env.trace:
             for job in env.trace[i]:
