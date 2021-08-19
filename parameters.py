@@ -15,10 +15,13 @@ else:
     NUM_AGENTS = 1  # at most 28 for tesla p100 and 40 for gtx 1080ti
 
 TRAINING_MODE = "RL"  # or "SL"
+if TRAINING_MODE == "SL":
+    HEURISTIC = "DRF"  # the heuristic algorithm used for supervised learning
 if TRAINING_MODE == "RL":
     VALUE_NET = True  # disable/enable critic network
 else:
     VALUE_NET = False
+
 POLICY_NN_MODEL = None  # "Models/policy_sl_ps_worker_100.ckpt"  # path of the checkpointed model, or None
 VALUE_NN_MODEL = None  # "Models/value_rl_ps_worker_1000.ckpt"  # path of value network model
 SAVE_VALUE_MODEL = True
@@ -52,7 +55,7 @@ elif LARGE_SCALE:
     CLUSTER_NUM_NODES = 500
 
 # dataset
-JOB_EPOCH_EST_ERROR = 0
+JOB_EPOCH_EST_ERROR = 0  # 6.4 total training epoch estimation
 TRAIN_SPEED_ERROR = 0
 REAL_SPEED_TRACE = True  # whether to use real traces collected from experiment testbed
 FIX_JOB_LEN = True

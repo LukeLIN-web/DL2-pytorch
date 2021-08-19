@@ -131,8 +131,7 @@ class Trace:
                 job = Job(id, type + 1, self.logger)  # type start from 1
                 id += 1
 
-                job.arrv_time = ts  #
-                self.logger.info("job.arrv_time = ts!"+str( ts))
+                job.arrv_time = ts
 
                 job.model = self.models[type]
                 job.epoch_size = self.epoch_sizes[type]

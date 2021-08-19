@@ -40,6 +40,12 @@ class Scheduler(object):
         self.curr_ts += 1
         return self.data
 
+    def get_job_jcts(self):
+        jcts = dict()
+        for job in self.completed_jobs:
+            jcts[job.id] = job.end_time - job.arrv_time + 1.0
+        return jcts
+
     def _prepare(self):
         self.cluster.clear()
         self.data = []
@@ -49,7 +55,6 @@ class Scheduler(object):
             for job in self.trace[self.curr_ts]:
                 job.reset()  # must reset since it is trained for multiple epochs
                 self.uncompleted_jobs.add(job)
-                print(job.arrv_time)
                 self.logger.debug(job.info())
         #
         for job in self.uncompleted_jobs:
@@ -66,7 +71,11 @@ class Scheduler(object):
     def _schedule(self):
         self.logger.info("This method is to be implemented on child class!")
 
-    def _progress(self):
+    def _progress(self) -> None:
+        """
+        each running job run job_step(), increase epoch and reward. if epoch is enough, determine end_time
+        It presents in one time slot, all job has one step.
+        """
         reward = 0
         for job in self.running_jobs.copy():
             epoch = job.step()
@@ -83,7 +92,7 @@ class Scheduler(object):
                 reward = len(self.uncompleted_jobs)
             self.rewards.append(reward)
 
-    def observe(self):
+    def observe(self) -> np.ndarray:
         """
         existing resource share of each job: 0-1
         job type 0-8
@@ -124,7 +133,7 @@ class Scheduler(object):
             if not q.empty():
                 _, _, job = q.get()
                 j = 0
-                for (input,enable) in pm.INPUTS_GATE:
+                for (input, enable) in pm.INPUTS_GATE:
                     # INPUTS_GATE=[("TYPE",True),("STAY",False),("PROGRESS",False),("DOM_RESR",False), ("WORKERS",True)]
                     if enable:
                         if input == "TYPE":
@@ -164,9 +173,9 @@ class Scheduler(object):
                 self.window_jobs[order] = job
 
         # backlog = float(max(len(self.uncompleted_jobs) - pm.SCHED_WINDOW_SIZE, 0))/len(pm.TOT_NUM_JOBS)
-        self.logger.debug("ts: " + str(self.curr_ts) \
-                          + " backlog: " + str(max(len(self.uncompleted_jobs) - pm.SCHED_WINDOW_SIZE, 0)) \
-                          + " completed jobs: " + str(len(self.completed_jobs)) \
+        self.logger.debug("ts: " + str(self.curr_ts)
+                          + " backlog: " + str(max(len(self.uncompleted_jobs) - pm.SCHED_WINDOW_SIZE, 0))
+                          + " completed jobs: " + str(len(self.completed_jobs))
                           + " uncompleted jobs: " + str(len(self.uncompleted_jobs)))
         return state
 
@@ -174,10 +183,10 @@ class Scheduler(object):
                role="worker"):  # whether this action selection leads to worker increment or ps increment
         # cluster_state = self.cluster.get_cluster_state()
         input = self.observe()  # NN input
-        label = np.zeros(pm.ACTION_DIM)
+        label = np.zeros(pm.ACTION_DIM)  # why this action named label?
         for i in range(pm.SCHED_WINDOW_SIZE):
             job = self.window_jobs[i]
-            if job and job.id == label_job_id:
+            if job and job.id == label_job_id:  # increase worker/ps for specific job
                 if pm.PS_WORKER:
                     if pm.BUNDLE_ACTION:
                         if role == "worker":
@@ -193,11 +202,9 @@ class Scheduler(object):
                             label[i * 2 + 1] = 1
                 else:
                     label[i] = 1
-        self.data.append((input, label))
+        self.data.append((input, label))  # add trajectory, for gradient calculation.
 
-
-
-    def get_results(self):
+    def get_results(self) -> (int, float, float, float):
         # get final results, including avg jct, makespan and avg reward
         jct_list = [(job.end_time - job.arrv_time + 1.0) for job in self.completed_jobs]
         makespan = max([job.end_time + 1.0 for job in self.completed_jobs])

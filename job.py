@@ -48,10 +48,15 @@ class Job:
 
         self.dom_share = 0
 
-    def get_run_time_in_ts(self):
+    def get_run_time_in_ts(self) -> int:
         return self.run_time_in_ts
 
-    def step(self, flag=True):
+    def step(self, flag=True) -> float:
+        """
+        if real trace
+        calculate the number of workers/ps on each cluster node.
+        calculate effective_inter/intra_bandwidth.  -> transmission time -> iteration time -> epoch
+        """
         assert self.progress < self.real_num_epochs
         assert self.num_workers == len(self.curr_worker_placement)
         try:
@@ -144,7 +149,6 @@ class Job:
 
 
 def main():
-    import numpy as np
     id = 1
     type = 1
     job = Job(id, type, None)  # type start from 1
@@ -158,7 +162,6 @@ def main():
     job.resr_worker = np.array([2, 4])
     job.num_epochs = 120
     job.real_num_epochs = 118
-    job.step(True)
 
 
 if __name__ == '__main__':

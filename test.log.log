@@ -1,10 +1,278 @@
- trace.py:135 INFO: job.arrv_time = ts!0
- trace.py:135 INFO: job.arrv_time = ts!0
- trace.py:135 INFO: job.arrv_time = ts!0
- trace.py:135 INFO: job.arrv_time = ts!0
- trace.py:135 INFO: job.arrv_time = ts!0
- trace.py:135 INFO: job.arrv_time = ts!1
- trace.py:135 INFO: job.arrv_time = ts!1
- trace.py:135 INFO: job.arrv_time = ts!1
- trace.py:135 INFO: job.arrv_time = ts!1
- trace.py:135 INFO: job.arrv_time = ts!1
+ scheduler_base.py:58 DEBUG: Job id: 1 type: 5 arrv time: 0 progress: 0.0 total epochs: 950.0
+ scheduler_base.py:58 DEBUG: Job id: 2 type: 1 arrv time: 0 progress: 0.0 total epochs: 300.0
+ scheduler_base.py:58 DEBUG: Job id: 3 type: 5 arrv time: 0 progress: 0.0 total epochs: 950.0
+ scheduler_base.py:58 DEBUG: Job id: 4 type: 3 arrv time: 0 progress: 0.0 total epochs: 50.0
+ scheduler_base.py:58 DEBUG: Job id: 5 type: 4 arrv time: 0 progress: 0.0 total epochs: 540.0
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.004 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 3 num_ps: 3
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 3 num_ps: 3
+ scheduler_base.py:58 DEBUG: Job id: 6 type: 6 arrv time: 1 progress: 0.0 total epochs: 460.0
+ scheduler_base.py:58 DEBUG: Job id: 7 type: 7 arrv time: 1 progress: 0.0 total epochs: 330.0
+ scheduler_base.py:58 DEBUG: Job id: 8 type: 5 arrv time: 1 progress: 0.0 total epochs: 950.0
+ scheduler_base.py:58 DEBUG: Job id: 9 type: 8 arrv time: 1 progress: 0.0 total epochs: 230.0
+ scheduler_base.py:58 DEBUG: Job id: 10 type: 1 arrv time: 1 progress: 0.0 total epochs: 300.0
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ scheduler_base.py:176 DEBUG: ts: 1 backlog: 0 completed jobs: 2 uncompleted jobs: 8
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.009 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 1 num_ps: 1
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 1 num_ps: 1
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 1 num_ps: 1
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 1 num_ps: 1
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 2 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.004 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 3 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.005 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:176 DEBUG: ts: 4 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.015 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:176 DEBUG: ts: 5 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.007 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 3 num_ps: 3
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 2 num_ps: 2
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 3 num_ps: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 6 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.005 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 4 num_ps: 4
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 4 num_ps: 4
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 4 num_ps: 4
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:176 DEBUG: ts: 7 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.004 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 4 num_ps: 4
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 4 num_ps: 4
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 4 num_ps: 4
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:176 DEBUG: ts: 8 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ drf_env.py:60 DEBUG: DRF:: scheduling time: 0.008 seconds.
+ drf_env.py:62 DEBUG: DRF:: scheduling results num_worker: 12 num_ps: 12
