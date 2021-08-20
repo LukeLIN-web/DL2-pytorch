@@ -1,7 +1,5 @@
 import random
-
 import numpy as np
-
 import trace
 import log
 import parameters as pm
@@ -40,7 +38,7 @@ class Scheduler(object):
         self.curr_ts += 1
         return self.data
 
-    def get_job_jcts(self):
+    def get_job_jcts(self) -> dict:
         jcts = dict()
         for job in self.completed_jobs:
             jcts[job.id] = job.end_time - job.arrv_time + 1.0

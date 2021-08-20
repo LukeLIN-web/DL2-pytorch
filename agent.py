@@ -1,3 +1,5 @@
+import copy
+
 import comparison
 import parameters as pm
 import log
@@ -33,6 +35,7 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
             validation_traces.append(trace.Trace(None).get_trace())
         # deep copy to avoid changes to validation_traces
         stats = comparison.compare(copy.deepcopy(validation_traces), logger)
+
 
 
 

@@ -11,8 +11,7 @@ import psutil
 
 def speed_funcs() -> dict:
     # fit a speed function for each model
-    print( "fit once")
-    print(u'当前进程的内存使用：%.4f GB' % (psutil.Process(os.getpid()).memory_info().rss / 1024 / 1024 / 1024))
+    # print(u'当前进程的内存使用：%.4f GB' % (psutil.Process(os.getpid()).memory_info().rss / 1024 / 1024 / 1024))
     speed_funcs = dict()
     records = []
     with open("config_speed.txt", "r") as f:

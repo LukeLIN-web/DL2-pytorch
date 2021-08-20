@@ -1,0 +1,2273 @@
+ scheduler_base.py:56 DEBUG: Job id: 1 type: 1 arrv time: 0 progress: 0.0 total epochs: 300.0
+ scheduler_base.py:56 DEBUG: Job id: 2 type: 1 arrv time: 0 progress: 0.0 total epochs: 300.0
+ scheduler_base.py:56 DEBUG: Job id: 3 type: 3 arrv time: 0 progress: 0.0 total epochs: 50.0
+ scheduler_base.py:56 DEBUG: Job id: 4 type: 2 arrv time: 0 progress: 0.0 total epochs: 960.0
+ scheduler_base.py:56 DEBUG: Job id: 5 type: 4 arrv time: 0 progress: 0.0 total epochs: 540.0
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 0 backlog: 0 completed jobs: 0 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 4
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 2
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 2
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 2
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 2
+ scheduler_base.py:56 DEBUG: Job id: 6 type: 4 arrv time: 1 progress: 0.0 total epochs: 540.0
+ scheduler_base.py:56 DEBUG: Job id: 7 type: 2 arrv time: 1 progress: 0.0 total epochs: 960.0
+ scheduler_base.py:56 DEBUG: Job id: 8 type: 8 arrv time: 1 progress: 0.0 total epochs: 230.0
+ scheduler_base.py:56 DEBUG: Job id: 9 type: 6 arrv time: 1 progress: 0.0 total epochs: 460.0
+ scheduler_base.py:56 DEBUG: Job id: 10 type: 2 arrv time: 1 progress: 0.0 total epochs: 960.0
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ scheduler_base.py:174 DEBUG: ts: 1 backlog: 0 completed jobs: 1 uncompleted jobs: 9
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 3
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 3
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 2 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.009 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 3 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 4 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 5 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 6 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 7 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 8 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 9 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 10 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 11 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 12 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 13 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 14 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 15 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 16 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 17 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 18 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 19 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 20 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 21 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 22 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 23 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.010 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 24 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 25 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 26 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 27 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 28 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 29 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 30 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 31 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 32 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 33 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 34 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 35 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.009 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 36 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 37 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 38 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 39 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.009 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 40 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 41 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 42 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 43 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 44 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 45 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.009 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 46 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 47 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 48 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 49 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 50 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 51 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 52 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 53 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 54 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 55 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 56 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 57 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 58 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 59 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 60 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 61 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 62 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.011 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 63 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.009 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 64 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 65 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 66 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 67 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 68 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 69 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 70 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 71 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 72 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 73 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.009 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 74 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 75 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 76 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 77 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 78 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 79 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 80 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 81 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 82 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 83 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 84 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 85 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 86 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 87 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 88 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 89 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 90 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ scheduler_base.py:174 DEBUG: ts: 91 backlog: 0 completed jobs: 3 uncompleted jobs: 7
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 92 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 93 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 94 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 95 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 96 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ scheduler_base.py:174 DEBUG: ts: 97 backlog: 0 completed jobs: 4 uncompleted jobs: 6
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 98 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 99 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 100 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 101 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 102 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 6
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 103 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 104 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 105 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ scheduler_base.py:174 DEBUG: ts: 106 backlog: 0 completed jobs: 5 uncompleted jobs: 5
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.008 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 107 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 108 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 109 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.006 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 110 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.004 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 111 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.007 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ scheduler_base.py:174 DEBUG: ts: 112 backlog: 0 completed jobs: 6 uncompleted jobs: 4
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ scheduler_base.py:174 DEBUG: ts: 113 backlog: 0 completed jobs: 7 uncompleted jobs: 3
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.005 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ scheduler_base.py:174 DEBUG: ts: 114 backlog: 0 completed jobs: 8 uncompleted jobs: 2
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.004 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 0
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ scheduler_base.py:174 DEBUG: ts: 115 backlog: 0 completed jobs: 9 uncompleted jobs: 1
+ tetris_env.py:81 DEBUG: Tetris:: scheduling time: 0.004 seconds.
+ tetris_env.py:83 DEBUG: Tetris:: scheduling results num_worker: 12
