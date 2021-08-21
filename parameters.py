@@ -14,7 +14,7 @@ if LOG_MODE == "DEBUG":
 else:
     NUM_AGENTS = 1  # at most 28 for tesla p100 and 40 for gtx 1080ti
 
-TRAINING_MODE = "RL"  # or "SL"
+TRAINING_MODE = "SL"  # "RL"or "SL"
 if TRAINING_MODE == "SL":
     HEURISTIC = "DRF"  # the heuristic algorithm used for supervised learning
 if TRAINING_MODE == "RL":
@@ -33,6 +33,13 @@ if TRAINING_MODE == "SL":
 MODEL_DIR = "Models/"  # checkpoint dir
 SUMMARY_DIR = "TensorBoard/"  # tensorboard logging dir , we could use
 
+SKIP_FIRST_VAL = False  # if False, the central agent will test the initialized model at first before training
+SELECT_ACTION_MAX_PROB = False  # whether to select the action with the highest probability or select based on distribution, default based on distribution
+MASK_PROB = 1.  # whether to mask actions mapped None jobs, set it to be lower seems to be worse
+ASSIGN_BUNDLE = True  # assign 1 ps and 1 worker for each in the beginning of each timeslot to avoid starvation
+
+
+
 # hyperparameters
 OPTIMIZER = "Adam"  # RMSProp
 if TRAINING_MODE == "SL":
@@ -40,11 +47,26 @@ if TRAINING_MODE == "SL":
 else:
     LEARNING_RATE = 0.0001
 
+MINI_BATCH_SIZE = 256/NUM_AGENTS
+EPSILON_GREEDY = False  # whether to enable epsilon greedy policy for exploration
+
+
+RAND_RANGE = 100000
 VAL_ON_MASTER = True  # validation on agent uses CPU instead of GPU, and may cause use up all memory, do not know why, so far it must be set true
 NUM_UNCOMPLETED_JOB_REWARD = False  # set the reward to be the number of uncompleted jobs
+
+
+INJECT_SAMPLES = True  # inject samples to experience buffer to get samples with high reward
+SAMPLE_INJECTION_PROB = 0.1  # probabilistically inject samples with high reward
+
+VARYING_SKIP_NUM_WORKERS = True
+MIN_ACTION_PROB_FOR_SKIP = 10**(-20)  # 10**(-12)
+
+VARYING_PS_WORKER_RATIO = True  # explore different ratio of ps over worker
+JOB_RESR_BALANCE = True
 FINE_GRAIN_JCT = True
 
-# cluster
+#cluster
 TESTBED = True
 LARGE_SCALE = False
 NUM_RESR_TYPES = 2  # number of resource types, e.g., cpu,gpu
@@ -75,6 +97,7 @@ if TESTBED:
     TS_DURATION = 300.0
     SCHED_WINDOW_SIZE = 4
 VAL_DATASET = 10  # number of traces for validation in each agent
+MAX_TS_LEN = 1000  # maximal timeslot length for one trace
 # neural network
 JOB_ORDER_SHUFFLE = False
 PS_WORKER = True  # whether consider ps and worker tasks separately or not

@@ -33,6 +33,14 @@ class Cluster:
                                 break
             return True, self.nodes_used_resrs[node]
 
+    def get_cluster_util(self):
+        utils = []
+        for i in range(pm.NUM_RESR_TYPES):
+            util = float(np.sum(self.nodes_used_resrs[:, i])) / self.CLUSTER_RESR_CAPS[i]
+            utils.append(util)
+
+        return utils
+
     def clear(self) -> None:
         self.cluster_state.fill(0)
         self.nodes_used_resrs.fill(0)
