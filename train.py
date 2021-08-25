@@ -24,12 +24,11 @@ def log_config():
                         not (key.startswith('__') or key.startswith('_'))}
     train_config_str = ""
     for key, value in train_config.items():
-        if key != None and value != None:
-            train_config_str += "{:<30}{:<100}".format(key, value) + "\n\n"  # It ususally don't have any
+        if key is not None and value is not None:
+            # print(type(key), type(value))
+            train_config_str += "{:<30}{:<100}".format(str(key),  str(value)) + "\n\n"  # It usually don't have any
 
-    # tb_logger.add_text(tag="Config", value=train_config_str, step=0)
-    # tb_logger.flush()
-    # the codes above are original codes, we do not write metadata and summary in trainconfig. there is a problem
+    #  we do not write metadata and summary in train config. there is a problem
 
     if pm.TRAINING_MODE == "SL":
         f = open(pm.MODEL_DIR + "sl_model.config", "w")

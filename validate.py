@@ -8,6 +8,7 @@ import srtf_env
 import optimus_env
 import rl_env
 
+
 def val_loss(net, val_traces, logger, global_step) -> float:
     avg_loss = 0
     step = 0
@@ -54,7 +55,7 @@ def val_loss(net, val_traces, logger, global_step) -> float:
 
 
 # return jct, makespan, reward
-def val_jmr(net, val_traces, logger, global_step, tb_logger) -> (float, float, float):
+def val_jmr(net, val_traces, logger, global_step) -> (float, float, float):
     avg_jct = []
     avg_makespan = []
     avg_reward = []
@@ -88,8 +89,6 @@ def val_jmr(net, val_traces, logger, global_step, tb_logger) -> (float, float, f
                     else:
                         string += "(id: " + str(id) + " type: " + str(type) + " num_workers: " + str(
                             num_workers) + ") \n"
-                tb_logger.add_text(tag="rl:resr_allocation:" + str(episode) + str(global_step), value=string,
-                                   step=global_step)
                 ts += 1
 
             if episode == 0:
@@ -115,10 +114,6 @@ def val_jmr(net, val_traces, logger, global_step, tb_logger) -> (float, float, f
                     value += " output: " + str(output) + "\n\n" + " masked_output: " + str(
                         masked_output) + "\n\n" + " action: " + str(action)
 
-                    tb_logger.add_text(
-                        tag="rl:input+output+action:" + str(global_step) + "_" + str(episode) + "_" + str(
-                            ts) + "_" + str(step),
-                        value=value, step=global_step)
             step += 1
         num_jobs, jct, makespan, reward = env.get_results()
         stats["jcts"].append(env.get_job_jcts().values())

@@ -190,8 +190,7 @@ class RL_Env(Scheduler):
                     if np.random.rand() < self.epsilon:
                         val_actions = []
                         for i in range(len(masked_output[0])):
-                            if masked_output[0][
-                                i] > pm.MIN_ACTION_PROB_FOR_SKIP:
+                            if masked_output[0][i] > pm.MIN_ACTION_PROB_FOR_SKIP:
                                 val_actions.append(i)
                         action = val_actions[np.random.randint(
                             0, len(val_actions))]
@@ -206,13 +205,14 @@ class RL_Env(Scheduler):
                                 else:
                                     allMaxResr = False
                                     break
-                        if allMaxResr and masked_output[0][
-                            len(action_vec) - 1] > pm.MIN_ACTION_PROB_FOR_SKIP and np.random.rand(
-                        ) <= pm.SAMPLE_INJECTION_PROB:  # choose to skip if prob larger than a small num, else NaN
+                        if allMaxResr and \
+                                masked_output[0][ len(action_vec) - 1] > pm.MIN_ACTION_PROB_FOR_SKIP and \
+                                np.random.rand() <= pm.SAMPLE_INJECTION_PROB:  # choose to skip if prob larger than a small num, else NaN
                             action = len(action_vec) - 1
                             self.logger.debug("Got 1.")
                     elif pm.REAL_SPEED_TRACE and pm.PS_WORKER:
-                        # shuffle = np.random.choice(len(self.window_jobs), len(self.window_jobs), replace=False)  # shuffle is a must, otherwise NN selects only the first several actions!!!
+                        # shuffle = np.random.choice(len(self.window_jobs), len(self.window_jobs), replace=False)
+                        # shuffle is a must, otherwise NN selects only the first several actions!!!
                         if pm.JOB_RESR_BALANCE and pm.BUNDLE_ACTION:
                             max_num_ps_worker = 0
                             min_num_ps_worker = 10 ** 10
@@ -228,11 +228,8 @@ class RL_Env(Scheduler):
                                         index_min_job = i
                             if min_num_ps_worker and index_min_job != -1 and max_num_ps_worker / min_num_ps_worker > np.random.randint(
                                     3, 6):
-                                if masked_output[0][
-                                    3 * index_min_job +
-                                    2] > pm.MIN_ACTION_PROB_FOR_SKIP and masked_output[
-                                    0][3 *
-                                       index_min_job] > pm.MIN_ACTION_PROB_FOR_SKIP:
+                                if masked_output[0][3 * index_min_job +2] > pm.MIN_ACTION_PROB_FOR_SKIP and \
+                                        masked_output[0][3 *index_min_job] > pm.MIN_ACTION_PROB_FOR_SKIP:
                                     if np.random.rand() < 0.5:
                                         action = 3 * index_min_job + 2
                                     else:
@@ -354,9 +351,10 @@ class RL_Env(Scheduler):
                 # allocate resource
                 if pm.PS_WORKER:
                     if pm.BUNDLE_ACTION:
-                        job = self.window_jobs[action / 3]
+                        # job = self.window_jobs[action / 3]
+                        job = self.window_jobs[action // 3]
                     else:
-                        job = self.window_jobs[action / 2]
+                        job = self.window_jobs[action // 2]
                 else:
                     job = self.window_jobs[action]
                 if job is None:
@@ -409,11 +407,9 @@ class RL_Env(Scheduler):
                             job.curr_worker_placement.append(node)
 
                         job.dom_share = np.max(
-                            1.0 * (job.num_workers * job.resr_worker +
-                                   job.num_ps * job.resr_ps) /
+                            1.0 * (job.num_workers * job.resr_worker + job.num_ps * job.resr_ps) /
                             self.cluster.CLUSTER_RESR_CAPS)
-                        self.node_used_resr_queue.put(
-                            (np.sum(node_used_resrs), node))
+                        self.node_used_resr_queue.put((np.sum(node_used_resrs), node))
                         self.running_jobs.add(job)
                         valid_state = True
                         self.sched_seq.append(job)

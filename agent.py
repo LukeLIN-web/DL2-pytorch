@@ -11,19 +11,14 @@ import os
 import trace
 
 
-def test(policy_net, validation_traces, logger, step, tb_logger):
+def test(policy_net, validation_traces, logger, step):
     LOG_DIR = "./backup/"  # stick LOGDIR .
     val_tic = time.time()
     tag_prefix = "Central "
     try:
         if pm.TRAINING_MODE == "SL":
             val_loss = validate.val_loss(policy_net, copy.deepcopy(validation_traces), logger, step)
-            tb_logger.add_scalar(tag=tag_prefix + "Val Loss", value=val_loss, step=step)
-        jct, makespan, reward = validate.val_jmr(policy_net, copy.deepcopy(validation_traces), logger, step, tb_logger)
-        tb_logger.add_scalar(tag=tag_prefix + "Val JCT", value=jct, step=step)
-        tb_logger.add_scalar(tag=tag_prefix + "Val Makespan", value=makespan, step=step)
-        tb_logger.add_scalar(tag=tag_prefix + "Val Reward", value=reward, step=step)
-        tb_logger.flush()
+        jct, makespan, reward = validate.val_jmr(policy_net, copy.deepcopy(validation_traces), logger, step)
         val_toc = time.time()
         logger.info("Central Agent:" + " Validation at step " + str(step) + " Time: " + '%.3f' % (val_toc - val_tic))
 
@@ -34,11 +29,9 @@ def test(policy_net, validation_traces, logger, step, tb_logger):
             f = open(LOG_DIR + "rl_validation.txt", 'a')
         f.write("step " + str(step) + ": " + str(jct) + " " + str(makespan) + " " + str(reward) + "\n")
         f.close()
-
         return jct, makespan, reward
     except Exception as e:
         logger.error("Error when validation! " + str(e))
-        tb_logger.add_text(tag="validation error", value=str(e), step=step)
 
 
 def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
@@ -73,7 +66,8 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
         tags_prefix = ["DRF: ", "SRTF: ", "FIFO: ", "Tetris: ", "Optimus: "]
         for i in range(pm.VAL_DATASET):
             validation_traces.append(trace.Trace(None).get_trace())
-        stats = comparison.compare(copy.deepcopy(validation_traces), logger)
+        # stats = comparison.compare(copy.deepcopy(validation_traces), logger)  # 'compare' method needs ten seconds
+        stats = []
         # deep copy to avoid changes to validation_traces
         if not pm.SKIP_FIRST_VAL:
             stats.append(test(policy_net, copy.deepcopy(validation_traces), logger, step=0))

@@ -29,10 +29,24 @@ class PolicyNetwork:
         elif pm.OPTIMIZER == "RMSProp":
             self.optimize = optim.RMSprop(self.net.parameters(), lr=self.lr, alpha=0.99, eps=1e-08, weight_decay=0,
                                           momentum=0, centered=False)
+        if self.mode == "SL":
+            if pm.SL_LOSS_FUNCTION == "Mean_Square":
+                self.criterion = nn.MSELoss()
+            elif pm.SL_LOSS_FUNCTION == "Cross_Entropy":
+                self.criterion = nn.CrossEntropyLoss()
+            elif pm.SL_LOSS_FUNCTION == "Absolute_Difference":
+                self.criterion = nn.L1Loss()
+
+
 
     def predict(self, inputs):
         output = self.net(inputs)
         return output
+
+    def get_sl_loss(self, inputs, label):
+        assert self.mode == "SL"
+        # return self.sess.run([self.outut, self.loss], feed_dict={self.input: input, self.label: label})
+        return self.criterion(self.net(inputs), label)
 
 
 class VNet(nn.Module):
