@@ -1,5 +1,4 @@
- agent.py:39 INFO: Start central agent...
- agent.py:49 INFO: create the policy network
- agent.py:51 INFO: name: conv1.weight, param: torch.Size([6, 3, 5, 5])
- agent.py:51 INFO: name: conv1.bias, param: torch.Size([6])
- agent.py:34 ERROR: Error when validation! 'float' object cannot be interpreted as an integer
+ agent.py:43 INFO: Start central agent...
+ agent.py:53 INFO: create the policy network
+ agent.py:55 INFO: name: conv1.weight, param: torch.Size([6, 3, 5, 5])
+ agent.py:55 INFO: name: conv1.bias, param: torch.Size([6])

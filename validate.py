@@ -1,3 +1,4 @@
+# coding=utf-8
 import numpy as np
 import time
 import parameters as pm
@@ -39,7 +40,7 @@ def val_loss(net, val_traces, logger, global_step) -> float:
                     input, label = data[index]
                     inputs.append(input)
                     labels.append(label)
-                # superversed learning to calculate gradients
+                # supervised learning to calculate gradients
                 output, loss = net.get_sl_loss(np.stack(inputs), np.vstack(labels))
                 avg_loss += loss
                 # if step%50 == 0:
@@ -127,5 +128,5 @@ def val_jmr(net, val_traces, logger, global_step) -> (float, float, float):
     with open("DL2_states.txt", 'a') as f:
         f.write(str(states_dict) + "\n")
 
-    return 1.0 * sum(avg_jct) / len(avg_jct), 1.0 * sum(avg_makespan) / len(avg_makespan), \
+    return 1.0 * sum(avg_jct) / len(avg_jct), 1.0 * sum(avg_makespan) / len(avg_makespan),\
            sum(avg_reward) / len(avg_reward)

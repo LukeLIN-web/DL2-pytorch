@@ -46,7 +46,7 @@ if TRAINING_MODE == "SL":
 else:
     LEARNING_RATE = 0.0001
 
-MINI_BATCH_SIZE = 256 / NUM_AGENTS
+MINI_BATCH_SIZE = 256 // NUM_AGENTS  # python2 could use / but py3 needs //
 EPSILON_GREEDY = False  # whether to enable epsilon greedy policy for exploration
 
 RAND_RANGE = 100000
@@ -120,4 +120,9 @@ else:
     ACTION_DIM = SCHED_WINDOW_SIZE + SKIP_TS
 
 INPUT_RESCALE = False  # not implemented on heuristic algorithms yet
+JOB_CENTRAL_REPRESENTATION = False  # treat each job as an input instead of treating each type of information of all jobs as an input
+ATTRIBUTE_CENTRAL_REPRESENTATION = False  # treat each property of all jobs as an input, default fully connected to input
 ZERO_PADDING = True  # how to represent None job as input
+FIRST_LAYER_TANH = False
+NUM_NEURONS_PER_FCN = STATE_DIM[0] * STATE_DIM[1] * 2 / 3  # default same number as input size
+BATCH_NORMALIZATION = True

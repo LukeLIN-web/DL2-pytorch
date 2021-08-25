@@ -1,3 +1,4 @@
+# coding=utf-8
 import copy
 import torch
 import comparison
@@ -15,23 +16,26 @@ def test(policy_net, validation_traces, logger, step):
     LOG_DIR = "./backup/"  # stick LOGDIR .
     val_tic = time.time()
     tag_prefix = "Central "
-    try:
-        if pm.TRAINING_MODE == "SL":
-            val_loss = validate.val_loss(policy_net, copy.deepcopy(validation_traces), logger, step)
-        jct, makespan, reward = validate.val_jmr(policy_net, copy.deepcopy(validation_traces), logger, step)
-        val_toc = time.time()
-        logger.info("Central Agent:" + " Validation at step " + str(step) + " Time: " + '%.3f' % (val_toc - val_tic))
+    # except Exception as e:
+    #     logger.error("Error when validation! " + str(e))
+    # try: # I don't think it make sense,
+    if pm.TRAINING_MODE == "SL":
+        val_loss = validate.val_loss(policy_net, copy.deepcopy(validation_traces), logger, step)
+    print("11")
+    jct, makespan, reward = validate.val_jmr(policy_net, copy.deepcopy(validation_traces), logger, step)
+    val_toc = time.time()
 
-        # log results
-        if pm.TRAINING_MODE == "SL":
-            f = open(LOG_DIR + "sl_validation.txt", 'a')
-        else:
-            f = open(LOG_DIR + "rl_validation.txt", 'a')
-        f.write("step " + str(step) + ": " + str(jct) + " " + str(makespan) + " " + str(reward) + "\n")
-        f.close()
-        return jct, makespan, reward
-    except Exception as e:
-        logger.error("Error when validation! " + str(e))
+    logger.info("Central Agent:" + " Validation at step " + str(step) + " Time: " + '%.3f' % (val_toc - val_tic))
+
+    # log results
+    print(val_toc)
+    if pm.TRAINING_MODE == "SL":
+        f = open(LOG_DIR + "sl_validation.txt", 'a')
+    else:
+        f = open(LOG_DIR + "rl_validation.txt", 'a')
+    f.write("step " + str(step) + ": " + str(jct) + " " + str(makespan) + " " + str(reward) + "\n")
+    f.close()
+    return jct, makespan, reward
 
 
 def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
