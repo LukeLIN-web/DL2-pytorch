@@ -124,5 +124,7 @@ JOB_CENTRAL_REPRESENTATION = False  # treat each job as an input instead of trea
 ATTRIBUTE_CENTRAL_REPRESENTATION = False  # treat each property of all jobs as an input, default fully connected to input
 ZERO_PADDING = True  # how to represent None job as input
 FIRST_LAYER_TANH = False
+NN_SHORTCUT_CONN = False  # connect the output of first layer to the NN layer before softmax output
+NUM_FCN_LAYERS = 2  # number of fully connected layers, must be > 0
 NUM_NEURONS_PER_FCN = STATE_DIM[0] * STATE_DIM[1] * 2 / 3  # default same number as input size
 BATCH_NORMALIZATION = True

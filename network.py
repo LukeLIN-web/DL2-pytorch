@@ -33,19 +33,19 @@ class PNet(nn.Module):
                         else:
                             self.fc1 = nn.Linear(input[:, j], pm.SCHED_WINDOW_SIZE)# activation="relu",name=key)
                         if pm.BATCH_NORMALIZATION:
-                            fc1 = tflearn.batch_normalization(fc1, name=key + "_bn")
+                            bn =  nn.BatchNorm1d(256)
                         fc_list.append(fc1)
                         j += 1
-                        if len(fc_list) == 1:
-                            merge_net = fc_list[0]
+            if len(fc_list) == 1:
+                merge_net = fc_list[0]
+                if pm.BATCH_NORMALIZATION:
+                    merge_net =  nn.BatchNorm1d(256)
+             else:
+                    merge_net = tflearn.merge(fc_list, 'concat', name="merge_net_1")
                         if pm.BATCH_NORMALIZATION:
-                            merge_net = tflearn.batch_normalization(merge_net)
-                        else:
-                            merge_net = tflearn.merge(fc_list, 'concat', name="merge_net_1")
-                        if pm.BATCH_NORMALIZATION:
-                            merge_net = tflearn.batch_normalization(merge_net, name="merge_net_1_bn")
-                        dense_net_1 = tflearn.fully_connected(merge_net, pm.NUM_NEURONS_PER_FCN, activation='relu',
-                                                              name='dense_net_1')
+                            merge_net = nn.BatchNorm1d(256)
+                        dense_net_1 = tflearn.fully_connected(merge_net,
+                                                              # pm.NUM_NEURONS_PER_FCN, activation='relu',name='dense_net_1')
                         else:
                         dense_net_1 = tflearn.fully_connected(input, pm.NUM_NEURONS_PER_FCN, activation='relu',
                                                               name='dense_net_1')
@@ -65,8 +65,7 @@ class PNet(nn.Module):
                         for fc in fc_list:
                             merge_net_2 = tflearn.merge([fc, dense_net_1], 'concat')
                         if pm.PS_WORKER:
-                            if
-                        pm.BUNDLE_ACTION:
+                            if pm.BUNDLE_ACTION:
                         fc2 = tflearn.fully_connected(merge_net_2, 3, activation='linear')
                         else:
                         fc2 = tflearn.fully_connected(merge_net_2, 2, activation='linear')
@@ -78,16 +77,19 @@ class PNet(nn.Module):
                             fc2 = tflearn.fully_connected(dense_net_1, 1, activation='linear')
                         fc2_list.append(fc2)
                         merge_net_3 = tflearn.merge(fc2_list, 'concat')
-                        output = tflearn.activation(merge_net_3, activation="softmax", name="policy_output")
+                        # output = tflearn.activation(merge_net_3, activation="softmax", name="policy_output")
+                    nn.Softmax()
                         else:
+
                         output = tflearn.fully_connected(dense_net_1, self.action_dim, activation="softmax",
                                                          name="policy_output")
         return input, output
 
 
-def forward(self, x):
-    x = F.relu(self.conv1(x))
-    return x
+    def forward(self, x):
+        x = F.relu(self.fc1(x))
+
+        return x
 
 
 class PolicyNetwork:
