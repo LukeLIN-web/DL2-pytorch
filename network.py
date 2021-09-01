@@ -11,20 +11,20 @@ class PNet(nn.Module):
     def __init__(self):
         super(PNet, self).__init__()
         # type, arrival, progress, resource
-        self.dense_net_1 = nn.Linear(pm.STATE_DIM[1], pm.NUM_NEURONS_PER_FCN)
-        n = self.dense_net_1.out_features
+        dense_net_1 = nn.Linear(pm.STATE_DIM[1], pm.NUM_NEURONS_PER_FCN)
         self.linears = nn.ModuleList()
+        self.linears.append(dense_net_1)
+        self.linears.append(nn.ReLU())
         for i in range(1, pm.NUM_FCN_LAYERS):
-            self.linears.append(nn.Linear(self.linears[-1].out_features, pm.NUM_NEURONS_PER_FCN))
+            self.linears.append(nn.Linear(pm.NUM_NEURONS_PER_FCN, pm.NUM_NEURONS_PER_FCN))
             self.linears.append(nn.ReLU())
-        output = nn.Linear(self.linears[-1].out_features, self.action_dim)
+        output = nn.Linear(pm.NUM_NEURONS_PER_FCN, pm.ACTION_DIM)
+        self.linears.append(output)
 
     def forward(self, x):
-        x = self.dense_net_1(x)
-        x = F.relu(x)
         for i, l in enumerate(self.linears):
             x = l(x)
-        x = F.relu(x)
+        x = F.softmax(x)
         return x
 
 
@@ -54,9 +54,9 @@ class PolicyNetwork:
         output = self.net(inputs)
         return output
 
-    def get_sl_loss(self, inputs, label):
+    def get_sl_loss(self, inputs: torch.Tensor, label):
         assert self.mode == "SL"
-        return self.criterion(self.net(inputs), label)
+        return self.net(inputs.float()), self.criterion(self.net(inputs.float()), label.long())
 
 
 class VNet(nn.Module):

@@ -27,7 +27,7 @@ class Scheduler(object):
         self.end = False
         self.rewards = []
 
-    def step(self):
+    def step(self) -> list:
         # step by one timeslot
         assert not self.end
         self._prepare()
@@ -54,7 +54,7 @@ class Scheduler(object):
                 job.reset()  # must reset since it is trained for multiple epochs
                 self.uncompleted_jobs.add(job)
                 self.logger.debug(job.info())
-        #
+
         for job in self.uncompleted_jobs:
             job.num_workers = 0
             job.curr_worker_placement = []

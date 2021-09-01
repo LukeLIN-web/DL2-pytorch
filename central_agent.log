@@ -1,1 +1,8 @@
  agent.py:43 INFO: Start central agent...
+ agent.py:53 INFO: create the policy network
+ agent.py:55 INFO: name: linears.0.weight, param: torch.Size([66, 20])
+ agent.py:55 INFO: name: linears.0.bias, param: torch.Size([66])
+ agent.py:55 INFO: name: linears.2.weight, param: torch.Size([66, 66])
+ agent.py:55 INFO: name: linears.2.bias, param: torch.Size([66])
+ agent.py:55 INFO: name: linears.4.weight, param: torch.Size([61, 66])
+ agent.py:55 INFO: name: linears.4.bias, param: torch.Size([61])

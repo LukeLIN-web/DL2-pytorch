@@ -8,7 +8,7 @@ import tetris_env
 import srtf_env
 import optimus_env
 import rl_env
-
+import torch
 
 def val_loss(net, val_traces, logger, global_step) -> float:
     avg_loss = 0
@@ -41,14 +41,13 @@ def val_loss(net, val_traces, logger, global_step) -> float:
                     inputs.append(input)
                     labels.append(label)
                 # supervised learning to calculate gradients
-                output, loss = net.get_sl_loss(np.stack(inputs), np.vstack(labels))
+                output, loss = net.get_sl_loss(torch.from_numpy(np.stack(inputs)), torch.from_numpy(np.vstack(labels).astype(np.double)))
                 avg_loss += loss
-                # if step%50 == 0:
-                # 	# # type, # of time slots in the system so far, normalized remaining epoch, dom resource
-                # 	tb_logger.add_text(tag="sl:input+label+output:" + str(episode) + "_" + str(ts), value="input:" + \
-                # 		" type: "+ str(input[0]) + " stay_ts: " + str(input[1]) + " rt: " + str(input[2]) \
-                # 		+ " resr:" + str(input[3]) + "\n" +
-                # 		" label: " + str(label) + "\n" + " output: " + str(output[-1]), step=global_step)
+                if step % 50 == 0:
+                    # # type, # of time slots in the system so far, normalized remaining epoch, dom resource
+                    print(str(episode) + "_" + str(ts) + "input:" + " type: " + str(input[0]) + " stay_ts: " + str(
+                        input[1]) + " rt: " + str(input[2]) + " resr:" + str(input[3]) +
+                          "\n" + " label: " + str(label) + "\n" + " output: " + str(output[-1]))
                 step += 1
                 data = []
 
@@ -128,5 +127,5 @@ def val_jmr(net, val_traces, logger, global_step) -> (float, float, float):
     with open("DL2_states.txt", 'a') as f:
         f.write(str(states_dict) + "\n")
 
-    return 1.0 * sum(avg_jct) / len(avg_jct), 1.0 * sum(avg_makespan) / len(avg_makespan),\
+    return 1.0 * sum(avg_jct) / len(avg_jct), 1.0 * sum(avg_makespan) / len(avg_makespan), \
            sum(avg_reward) / len(avg_reward)
