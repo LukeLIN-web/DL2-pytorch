@@ -1,7 +1,7 @@
 import numpy as np
 import ast
 import scipy.interpolate
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import os
 import psutil
 
@@ -34,12 +34,17 @@ def speed_funcs() -> dict:
             z.append(_speed)
         interp = scipy.interpolate.Rbf(np.array(x), np.array(y), np.array(z), function='linear')
         speed_funcs[model] = interp  # store function
-#         '''		you could plot function with following codes		'''
-#         # xnew, ynew = np.mgrid[-1:1:100j, -1:1:100j]  # 输入输出都是二维
-#         # znew = interp(xnew,ynew)
-#         # ax = plt.subplot(111, projection='3d')
-#         # ax.plot_surface(xnew, ynew, znew)
-#         # ax.scatter(x, y, z, c='r', marker='^')
-#         # plt.show()
+        #         '''		you could plot function with following codes		'''
+        xnew, ynew = np.mgrid[-1:1:100j, -1:1:100j]  # 输入输出都是二维
+        znew = interp(xnew, ynew)
+        ax = plt.subplot(111, projection='3d')
+        ax.plot_surface(xnew, ynew, znew, rstride=1, cstride=1, cmap='rainbow')
+        ax.scatter(x, y, z, c='r', marker='^')
+        plt.title('model {0}  fitting speed function'.format(str(model)), size=20)
+        plt.show()
     return speed_funcs
 
+
+if __name__ == '__main__':
+    print("Generate job traces...")
+    speed_funcs()
