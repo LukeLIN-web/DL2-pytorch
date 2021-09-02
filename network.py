@@ -50,13 +50,23 @@ class PolicyNetwork:
             elif pm.SL_LOSS_FUNCTION == "Absolute_Difference":
                 self.criterion = nn.L1Loss()
 
-    def predict(self, inputs):
-        output = self.net(inputs)
+    def get_weights(self):
+        return list(self.net.parameters()) #
+
+    def predict(self, inputs: torch.tensor) -> torch.tensor:
+        output = self.net(inputs.float())
         return output
 
-    def get_sl_loss(self, inputs: torch.Tensor, label):
+    def get_sl_loss(self, inputs: torch.Tensor, label) :
         assert self.mode == "SL"
         return self.net(inputs.float()), self.criterion(self.net(inputs.float()), label.long())
+
+    # adjust entropy weight
+    def anneal_entropy_weight(self, step):
+        if pm.FIX_ENTROPY_WEIGHT:
+            self.entropy_weight = pm.ENTROPY_WEIGHT
+        else:
+            self.entropy_weight = max(pm.MAX_ENTROPY_WEIGHT * 2 / (1 + np.exp(step / pm.ANNEALING_TEMPERATURE)), 0.1)
 
 
 class VNet(nn.Module):

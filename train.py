@@ -4,9 +4,7 @@ import os
 import parameters as pm
 import multiprocessing
 import agent
-
-
-# from torch.utils.tensorboard import SummaryWriter
+#from torch.utils.tensorboard import SummaryWriter
 
 def log_config():
     # log all configurations in parameters and backup py

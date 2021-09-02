@@ -115,8 +115,10 @@ class RL_Env(Scheduler):
             self._prepare()
 
     # step forward by one action
+    # overwritten scheduler_base class
     def step(self, output) -> (np.ndarray, np.ndarray, bool, bool, bool):
         # mask and adjust probability
+        output = output.detach().numpy()
         mask = np.ones(pm.ACTION_DIM)
         for i in range(len(self.window_jobs)):
             if self.window_jobs[i] is None:  # what if job workers are already maximum
@@ -150,8 +152,9 @@ class RL_Env(Scheduler):
                             mask[2 * i + 1] = 0.0
                     if (worker_full or ps_full) and pm.BUNDLE_ACTION:
                         mask[3 * i + 2] = 0.0
-
-        masked_output = np.reshape(output[0] * mask, (1, len(mask)))
+        print(output.shape,mask.shape)
+        print(output[0])
+        masked_output = np.reshape(output[0] * mask, (1, len(mask))) # It don't match
         sum_prob = np.sum(masked_output)
         action_vec = np.zeros(len(mask))
         move_on = True
@@ -159,8 +162,7 @@ class RL_Env(Scheduler):
         if ((not pm.PS_WORKER) and sum(mask[:len(self.window_jobs)]) == 0) \
                 or (pm.PS_WORKER and (not pm.BUNDLE_ACTION) and sum(mask[:2 * len(self.window_jobs)]) == 0) \
                 or (pm.PS_WORKER and pm.BUNDLE_ACTION and sum(mask[:3 * len(self.window_jobs)]) == 0):
-            self.logger.debug(
-                "All jobs are None, move on and do not save it as a sample")
+            self.logger.debug("All jobs are None, move on and do not save it as a sample")
             self._move()
         elif sum_prob <= 0:
             self.logger.info("All actions are masked or some action with probability 1 is masked!!!")
@@ -267,8 +269,8 @@ class RL_Env(Scheduler):
                                                 masked_output[0][3 * i] > pm.MIN_ACTION_PROB_FOR_SKIP:
                                             action = 3 * i + 1
                                         break
-                                    elif job.num_ps > job.num_workers * self.ps_worker_ratio and np.random.rand(
-                                    ) < 0.5:
+                                    elif job.num_ps > job.num_workers * self.ps_worker_ratio and \
+                                            np.random.rand() < 0.5:
                                         if mask[3 * i + 2] > 0 and \
                                                 masked_output[0][3 * i + 2] > pm.MIN_ACTION_PROB_FOR_SKIP and \
                                                 mask[3 * i] > 0 and \

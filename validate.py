@@ -10,6 +10,7 @@ import optimus_env
 import rl_env
 import torch
 
+
 def val_loss(net, val_traces, logger, global_step) -> float:
     avg_loss = 0
     step = 0
@@ -41,13 +42,14 @@ def val_loss(net, val_traces, logger, global_step) -> float:
                     inputs.append(input)
                     labels.append(label)
                 # supervised learning to calculate gradients
-                output, loss = net.get_sl_loss(torch.from_numpy(np.stack(inputs)), torch.from_numpy(np.vstack(labels).astype(np.double)))
+                output, loss = net.get_sl_loss(torch.from_numpy(np.stack(inputs)),
+                                               torch.from_numpy(np.vstack(labels)))
                 avg_loss += loss
-                if step % 50 == 0:
+                # if step % 50 == 0:
                     # # type, # of time slots in the system so far, normalized remaining epoch, dom resource
-                    print(str(episode) + "_" + str(ts) + "input:" + " type: " + str(input[0]) + " stay_ts: " + str(
-                        input[1]) + " rt: " + str(input[2]) + " resr:" + str(input[3]) +
-                          "\n" + " label: " + str(label) + "\n" + " output: " + str(output[-1]))
+                    # print(str(episode) + "_" + str(ts) + "input:" + " type: " + str(input[0]) + " stay_ts: " + str(
+                    #     input[1]) + " rt: " + str(input[2]) + " resr:" + str(input[3]) +
+                    #       "\n" + " label: " + str(label) + "\n" + " output: " + str(output[-1]))
                 step += 1
                 data = []
 
@@ -73,7 +75,8 @@ def val_jmr(net, val_traces, logger, global_step) -> (float, float, float):
         ts = 0
         while not env.end:
             inputs = env.observe()
-            output = net.predict(np.reshape(inputs, (1, pm.STATE_DIM[0], pm.STATE_DIM[1])))
+            output = net.predict(torch.from_numpy(np.reshape(inputs, (1, pm.STATE_DIM[0], pm.STATE_DIM[1]))))
+            print(output.shape)
             masked_output, action, reward, move_on, valid_state = env.step(output)
             if episode == 0 and move_on:  # record the first trace
                 states = env.get_sched_states()

@@ -32,8 +32,8 @@ if TRAINING_MODE == "SL":
     VALUE_NN_MODEL = None  # why
 MODEL_DIR = "Models/"  # checkpoint dir
 SUMMARY_DIR = "TensorBoard/"  # tensorboard logging dir , we could use
-
-SKIP_FIRST_VAL = False  # if False, the central agent will test the initialized model at first before training
+DISP_INTERVAL = 50  # display frequency
+SKIP_FIRST_VAL = True  # if False, the central agent will test the initialized model at first before training
 SELECT_ACTION_MAX_PROB = False  # whether to select the action with the highest probability or select based on distribution, default based on distribution
 MASK_PROB = 1.  # whether to mask actions mapped None jobs, set it to be lower seems to be worse
 ASSIGN_BUNDLE = True  # assign 1 ps and 1 worker for each in the beginning of each timeslot to avoid starvation
@@ -48,8 +48,16 @@ else:
 
 MINI_BATCH_SIZE = 256 // NUM_AGENTS  # python2 could use / but py3 needs //
 EPSILON_GREEDY = False  # whether to enable epsilon greedy policy for exploration
+FIX_ENTROPY_WEIGHT = True  # if true, the entropy weight is ENTROPY_WEIGHT; else, it is calculated based on ANNEALING_TEMPERATURE and MAX_ENTROPY_WEIGHT
+
+
+
 
 RAND_RANGE = 100000
+TOT_NUM_STEPS = 1000000
+if TRAINING_MODE == "SL":
+    TOT_NUM_STEPS = 100 # 10 for debug, 100000
+
 VAL_ON_MASTER = True  # validation on agent uses CPU instead of GPU, and may cause use up all memory, do not know why, so far it must be set true
 NUM_UNCOMPLETED_JOB_REWARD = False  # set the reward to be the number of uncompleted jobs
 

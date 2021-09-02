@@ -20,7 +20,7 @@ def drf(job_trace=None) :
     while not env.end:
         env.step()
     print("progress: drf finished   ")
-    print(multiprocessing.current_process().name + '-' + str(env.get_results()) + str(env.get_job_jcts().values()))
+    #print(multiprocessing.current_process().name + '-' + str(env.get_results()) + str(env.get_job_jcts().values()))
     return [env.get_results(), list(env.get_job_jcts().values())]
 
 
@@ -31,7 +31,7 @@ def srtf(job_trace=None):
     while not env.end:
         env.step()
     print("progress: srtf finished   ")
-    print(multiprocessing.current_process().name + '-' + str(env.get_results()) + str(env.get_job_jcts().values()))
+    #print(multiprocessing.current_process().name + '-' + str(env.get_results()) + str(env.get_job_jcts().values()))
     return [env.get_results(), list(env.get_job_jcts().values())]
 
 
@@ -42,7 +42,7 @@ def fifo(job_trace=None) :
     while not env.end:
         env.step()
     print("progress: fifo finished  ")
-    print(multiprocessing.current_process().name + '-' + str(env.get_results()) + str(env.get_job_jcts().values()))
+    #print(multiprocessing.current_process().name + '-' + str(env.get_results()) + str(env.get_job_jcts().values()))
     return [env.get_results(), list(env.get_job_jcts().values())]
 
 
