@@ -92,32 +92,32 @@ def collect_stats(stats_qs, writer, step):
                         writer.add_scalar(tag=job_stats_tag_prefix + "Arrival", value=jobstats["arrival"][i], step=i)
                     for i in range(len(jobstats["ts_completed"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "Ts_completed",
-                                             value=jobstats["ts_completed"][i], step=i)
+                                          value=jobstats["ts_completed"][i], step=i)
                     for i in range(len(jobstats["tot_completed"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "Tot_completed",
-                                             value=jobstats["tot_completed"][i], step=i)
+                                          value=jobstats["tot_completed"][i], step=i)
                     for i in range(len(jobstats["uncompleted"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "Uncompleted", value=jobstats["uncompleted"][i],
-                                             step=i)
+                                          step=i)
                     for i in range(len(jobstats["running"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "Running", value=jobstats["running"][i], step=i)
                     for i in range(len(jobstats["total"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "Total jobs", value=jobstats["total"][i],
-                                             step=i)
+                                          step=i)
                     for i in range(len(jobstats["backlog"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "Backlog", value=jobstats["backlog"][i], step=i)
                     for i in range(len(jobstats["cpu_util"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "CPU_Util", value=jobstats["cpu_util"][i],
-                                             step=i)
+                                          step=i)
                     for i in range(len(jobstats["gpu_util"])):
                         writer.add_scalar(tag=job_stats_tag_prefix + "GPU_Util", value=jobstats["gpu_util"][i],
-                                             step=i)
+                                          step=i)
                     writer.add_histogram(tag=job_stats_tag_prefix + "JCT", value=jobstats["duration"], step=step)
 
     tag_prefix = "Central "
     if len(policy_entropys) > 0:
         writer.add_scalar(tag=tag_prefix + "Policy Entropy", value=sum(policy_entropys) / len(policy_entropys),
-                             step=step)
+                          step=step)
     if len(policy_losses) > 0:
         writer.add_scalar(tag=tag_prefix + "Policy Loss", value=sum(policy_losses) / len(policy_losses), step=step)
     if len(value_losses) > 0:
@@ -157,13 +157,13 @@ def collect_stats(stats_qs, writer, step):
     writer.flush()
 
 
-def test(policy_net, validation_traces, logger, step):
+def test(policy_net, validation_traces, logger, step, writer):
     LOG_DIR = "./backup/"  # stick LOGDIR .
     val_tic = time.time()
     tag_prefix = "Central "
     # except Exception as e:
     #     logger.error("Error when validation! " + str(e))
-    # try: # I don't think it make sense,
+    # try: # I don't think it make sense, collecting exception makes debug difficult
     if pm.TRAINING_MODE == "SL":
         val_loss = validate.val_loss(policy_net, copy.deepcopy(validation_traces), logger, step)
     jct, makespan, reward = validate.val_jmr(policy_net, copy.deepcopy(validation_traces), logger, step)  # val_jmr有一些
@@ -255,7 +255,6 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
                     step) + " Speed " + '%.3f' % speed + " batches/sec" + " Time " + '%.3f' % elaps_t + " seconds")
 
             # statistics
-
             collect_stats(stats_qs, writer, step)
             writer.close()
             exit()
@@ -268,3 +267,64 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
             if step < pm.STEP_TRAIN_CRITIC_NET:  # set policy net lr to 0 to train critic net only
                 policy_net.lr = 0.0
 
+            if step % pm.DISP_INTERVAL == 0:
+                writer.add_scalar(tag="Learning rate", scalar_value=policy_net.lr, global_step=step)
+
+            # save model
+            if step % pm.CHECKPOINT_INTERVAL == 0:
+                name_prefix = ""
+                if pm.TRAINING_MODE == "SL":
+                    name_prefix += "sl_"
+                else:
+                    name_prefix += "rl_"
+                if pm.PS_WORKER:
+                    name_prefix += "ps_worker_"
+                else:
+                    name_prefix += "worker_"
+
+                model_name = pm.MODEL_DIR + "policy_" + name_prefix + str(step) + ".ckpt"
+                torch.save({'state_dict': policy_net.net.state_dict(),
+                            'optimizer': policy_net.net.optimizer.state_dict()},
+                           model_name)
+                logger.info("Policy model saved: " + model_name)
+                if pm.VALUE_NET and pm.SAVE_VALUE_MODEL:
+                    model_name = pm.MODEL_DIR + "value_" + name_prefix + str(step) + ".ckpt"
+                    torch.save({'state_dict': policy_net.net.state_dict(),
+                                'optimizer': policy_net.net.optimizer.state_dict()},
+                               model_name)
+                    logger.info("Value model saved: " + model_name)
+
+            # validation
+            if pm.VAL_ON_MASTER and step % pm.VAL_INTERVAL == 0:
+                test(policy_net, copy.deepcopy(validation_traces), logger, step, writer)
+
+            # poll and update parameters
+            poll_ids = set([i for i in range(pm.NUM_AGENTS)])
+            avg_policy_grads = []
+            avg_value_grads = []
+            while True:
+                for i in poll_ids.copy():
+                    try:
+                        if pm.VALUE_NET:
+                            policy_gradients, value_gradients = net_gradients_qs[i].get(False)
+                        else:
+                            policy_gradients = net_gradients_qs[i].get(False)  # What is false main?
+                        poll_ids.remove(i)
+                        if len(avg_policy_grads) == 0:
+                            avg_policy_grads = policy_gradients
+                        else:
+                            for j in range(len(avg_policy_grads)):
+                                avg_policy_grads[j] += policy_gradients[j]
+                        if pm.VALUE_NET:
+                            if len(avg_value_grads) == 0:
+                                avg_value_grads = value_gradients
+                            else:
+                                for j in range(len(avg_value_grads)):
+                                    avg_value_grads[j] += value_gradients[j]
+                    except:
+                        continue
+                if len(poll_ids) == 0:
+                    break
+            for i in range(0, len(avg_policy_grads)):
+                avg_policy_grads[i] = avg_policy_grads[i] / pm.NUM_AGENTS
+            policy_net.apply_gradients(avg_policy_grads)

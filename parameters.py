@@ -30,8 +30,11 @@ if TRAINING_MODE == "SL" or VALUE_NN_MODEL is not None:
 if TRAINING_MODE == "SL":
     POLICY_NN_MODEL = None
     VALUE_NN_MODEL = None  # why
-MODEL_DIR = "Models/"  # checkpoint dir
 SUMMARY_DIR = "TensorBoard/"  # tensorboard logging dir , we could use
+MODEL_DIR = "Models/"  # checkpoint dir
+CHECKPOINT_INTERVAL = 10000
+if TRAINING_MODE == "SL":
+    CHECKPOINT_INTERVAL = 100
 DISP_INTERVAL = 50  # display frequency
 NUM_RECORD_AGENTS = 2  # log details of 2 agents in tensorboard and ignore others for saved space
 SKIP_FIRST_VAL = True  # if False, the central agent will test the initialized model at first before training
@@ -57,7 +60,9 @@ RAND_RANGE = 100000
 TOT_NUM_STEPS = 1000000
 if TRAINING_MODE == "SL":
     TOT_NUM_STEPS = 100  # 10 for debug, 100000
-
+VAL_INTERVAL = 200  # validation interval
+if TRAINING_MODE == "SL":
+    VAL_INTERVAL = 50
 VAL_ON_MASTER = True  # validation on agent uses CPU instead of GPU, and may cause use up all memory, do not know why, so far it must be set true
 NUM_UNCOMPLETED_JOB_REWARD = False  # set the reward to be the number of uncompleted jobs
 
@@ -105,7 +110,6 @@ if TESTBED:
     SCHED_WINDOW_SIZE = 4
 VAL_DATASET = 10  # number of traces for validation in each agent
 MAX_TS_LEN = 1000  # maximal timeslot length for one trace
-
 
 # neural network
 JOB_ORDER_SHUFFLE = False

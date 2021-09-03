@@ -35,13 +35,12 @@ class PolicyNetwork:
         self.logger = logger
         self.net = PNet()
         self.lr = pm.LEARNING_RATE
-        # todo : this is demo network , need carefully designed.
         if pm.OPTIMIZER == "Adam":
-            self.optimize = optim.Adam(self.net.parameters(), lr=0.0001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0,
-                                       amsgrad=False)
+            self.optimizer = optim.Adam(self.net.parameters(), lr=0.0001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0,
+                                        amsgrad=False)
         elif pm.OPTIMIZER == "RMSProp":
-            self.optimize = optim.RMSprop(self.net.parameters(), lr=self.lr, alpha=0.99, eps=1e-08, weight_decay=0,
-                                          momentum=0, centered=False)
+            self.optimizer = optim.RMSprop(self.net.parameters(), lr=self.lr, alpha=0.99, eps=1e-08, weight_decay=0,
+                                           momentum=0, centered=False)
         if self.mode == "SL":
             if pm.SL_LOSS_FUNCTION == "Mean_Square":
                 self.criterion = nn.MSELoss()
