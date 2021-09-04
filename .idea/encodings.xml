@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/TensorBoard/events.out.tfevents.1630590110.DESKTOP-MLG3VOB.16944.0" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train.py" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

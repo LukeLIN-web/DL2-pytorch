@@ -50,13 +50,13 @@ class PolicyNetwork:
                 self.criterion = nn.L1Loss()
 
     def get_weights(self):
-        return list(self.net.parameters()) #
+        return list(self.net.parameters())  #
 
     def predict(self, inputs: torch.tensor) -> torch.tensor:
         output = self.net(inputs.float())
         return output
 
-    def get_sl_loss(self, inputs: torch.Tensor, label) :
+    def get_sl_loss(self, inputs: torch.Tensor, label):
         assert self.mode == "SL"
         return self.net(inputs.float()), self.criterion(self.net(inputs.float()), label.long())
 

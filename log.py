@@ -22,7 +22,6 @@ def getLogger(name='logger', level='INFO', mode='w', fh=True, ch=True, prefix=""
         fh.setLevel(logging.ERROR)
         ch.setLevel(logging.ERROR)
 
-    # formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s')
     formatter = logging.Formatter(prefix + ' ' + '%(filename)s:%(lineno)s %(levelname)s: %(message)s')
     fh.setFormatter(formatter)
     ch.setFormatter(formatter)

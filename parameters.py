@@ -36,6 +36,7 @@ CHECKPOINT_INTERVAL = 10000
 if TRAINING_MODE == "SL":
     CHECKPOINT_INTERVAL = 100
 DISP_INTERVAL = 50  # display frequency
+VISUAL_GW_INTERVAL = 1000  # tf log gradients/weights frequency
 NUM_RECORD_AGENTS = 2  # log details of 2 agents in tensorboard and ignore others for saved space
 SKIP_FIRST_VAL = True  # if False, the central agent will test the initialized model at first before training
 SELECT_ACTION_MAX_PROB = False  # whether to select the action with the highest probability or select based on distribution, default based on distribution
@@ -57,6 +58,7 @@ EPSILON_GREEDY = False  # whether to enable epsilon greedy policy for exploratio
 FIX_ENTROPY_WEIGHT = True  # if true, the entropy weight is ENTROPY_WEIGHT; else, it is calculated based on ANNEALING_TEMPERATURE and MAX_ENTROPY_WEIGHT
 
 RAND_RANGE = 100000
+TOT_TRAIN_EPOCHS = 2  # number of training epochs
 TOT_NUM_STEPS = 1000000
 if TRAINING_MODE == "SL":
     TOT_NUM_STEPS = 100  # 10 for debug, 100000

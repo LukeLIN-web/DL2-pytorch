@@ -1,10 +1,11 @@
-# coding=utf-8
 import time
 import os
 import parameters as pm
 import multiprocessing
 import agent
-#from torch.utils.tensorboard import SummaryWriter
+
+
+# from torch.utils.tensorboard import SummaryWriter
 
 def log_config():
     # log all configurations in parameters and backup py
@@ -25,7 +26,7 @@ def log_config():
     for key, value in train_config.items():
         if key is not None and value is not None:
             # print(type(key), type(value))
-            train_config_str += "{:<30}{:<100}".format(str(key),  str(value)) + "\n\n"  # It usually don't have any
+            train_config_str += "{:<30}{:<100}".format(str(key), str(value)) + "\n\n"  # It usually don't have any
 
     #  we do not write metadata and summary in train config. there is a problem
 
@@ -42,28 +43,38 @@ def log_config():
 
 
 def main():
-    os.system("rm -f *.log")
-    os.system("sudo pkill -9 tensorboard; sleep 3")
+    # os.system("rm -f *.log")
+    # os.system("sudo pkill -9 tensorboard; sleep 3")
 
     net_weights_qs = [multiprocessing.Queue(1) for i in range(pm.NUM_AGENTS)]
     net_gradients_qs = [multiprocessing.Queue(1) for i in range(pm.NUM_AGENTS)]
     stats_qs = [multiprocessing.Queue() for i in range(pm.NUM_AGENTS)]
 
-    os.system("mkdir -p " + pm.MODEL_DIR + "; mkdir -p " + pm.SUMMARY_DIR)
+    os.system("mkdir -p" + pm.MODEL_DIR + "; mkdir -p" + pm.SUMMARY_DIR)
     # if pm.EXPERIMENT_NAME is None:
-    # 	cmd = "cd " + pm.SUMMARY_DIR + " && rm -rf *; tensorboard --logdir=./"
-    # 	board = multiprocessing.Process(target=lambda: os.system(cmd), args=())
-    # 	board.start()
-    # 	time.sleep(3) # let tensorboard start first since it will clear the dir
+    #     cmd = "cd " + pm.SUMMARY_DIR + " && rm -rf *; tensorboard --logdir=./"
+    #     board = multiprocessing.Process(target=lambda: os.system(cmd), args=())
+    #     board.start()
+    #     time.sleep(3)  # let tensorboard start first since it will clear the dir
 
-    agent.central_agent(net_weights_qs, net_gradients_qs, stats_qs)
-    log_config()  # It used to place in central agent
+    # agent.central_agent(net_weights_qs, net_gradients_qs, stats_qs)
+    # log_config()  # It used to place in central agent
 
+    master = multiprocessing.Process(target=agent.central_agent, args=(net_weights_qs, net_gradients_qs, stats_qs,))
+    master.start()
 
-# master = multiprocessing.Process(target=central_agent, args=(net_weights_qs, net_gradients_qs, stats_qs,))
-# master.start()
-# agent(net_weights_qs[0], net_gradients_qs[0], stats_qs[0], 0)
-# exit()
+    if pm.TRAINING_MODE == "SL":
+        agents = [
+            multiprocessing.Process(target=agent.sl_agent,
+                                    args=(net_weights_qs[i], net_gradients_qs[i], stats_qs[i], i,)) for
+            i in range(pm.NUM_AGENTS)]
+    elif pm.TRAINING_MODE == "RL":
+        agents = [
+            multiprocessing.Process(target=rl_agent, args=(net_weights_qs[i], net_gradients_qs[i], stats_qs[i], i,)) for
+            i in range(pm.NUM_AGENTS)]
+    for i in range(pm.NUM_AGENTS):
+        agents[i].start()
+    master.join()
 
 
 if __name__ == "__main__":

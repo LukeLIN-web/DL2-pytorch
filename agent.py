@@ -308,7 +308,7 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
                         if pm.VALUE_NET:
                             policy_gradients, value_gradients = net_gradients_qs[i].get(False)
                         else:
-                            policy_gradients = net_gradients_qs[i].get(False)  # What is false main?
+                            policy_gradients = net_gradients_qs[i].get(False)  # why this is "False"?
                         poll_ids.remove(i)
                         if len(avg_policy_grads) == 0:
                             avg_policy_grads = policy_gradients
@@ -328,3 +328,134 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
             for i in range(0, len(avg_policy_grads)):
                 avg_policy_grads[i] = avg_policy_grads[i] / pm.NUM_AGENTS
             policy_net.apply_gradients(avg_policy_grads)
+
+            if pm.VALUE_NET:
+                for i in range(0, len(avg_value_grads)):
+                    avg_value_grads[i] = avg_value_grads[i] / pm.NUM_AGENTS
+                value_net.apply_gradients(avg_value_grads)
+
+            # visualize gradients and weights
+            if step % pm.VISUAL_GW_INTERVAL == 0 and pm.EXPERIMENT_NAME is None:
+                assert len(policy_weights) == len(avg_policy_grads)
+                for i in range(0, len(policy_weights), 10):
+                    tb_logger.add_histogram(tag="Policy weights " + str(i), value=policy_weights[i], step=step)
+                    tb_logger.add_histogram(tag="Policy gradients " + str(i), value=avg_policy_grads[i], step=step)
+                if pm.VALUE_NET:
+                    assert len(value_weights) == len(avg_value_grads)
+                    for i in range(0, len(value_weights), 10):
+                        tb_logger.add_histogram(tag="Value weights " + str(i), value=value_weights[i], step=step)
+                        tb_logger.add_histogram(tag="Value gradients " + str(i), value=avg_value_grads[i], step=step)
+            step += 1
+
+        logger.info("Training ends...")
+        if pm.VALUE_NET:
+            for i in range(pm.NUM_AGENTS):
+                net_weights_qs[i].put(("exit", "exit"))
+        else:
+            for i in range(pm.NUM_AGENTS):
+                net_weights_qs[i].put("exit")
+        # os.system("sudo pkill -9 python")
+        exit(0)
+
+
+# supervised learning
+def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
+    logger = log.getLogger(name="agent_" + str(id), level=pm.LOG_MODE)
+    logger.info("Start supervised learning, agent " + str(id) + " ...")
+
+    if not pm.RANDOMNESS:
+        np.random.seed(pm.np_seed + id + 1)
+
+    # invoke network
+    policy_net = network.PolicyNetwork("policy_net", pm.TRAINING_MODE, logger)
+
+    global_step = 1
+    avg_jct = []
+    avg_makespan = []
+    avg_reward = []
+    if not pm.VAL_ON_MASTER:
+        validation_traces = []  # validation traces
+        for i in range(pm.VAL_DATASET):
+            validation_traces.append(trace.Trace(None).get_trace())
+    # generate training traces
+    traces = []
+    for episode in range(pm.TRAIN_EPOCH_SIZE):
+        job_trace = trace.Trace(None).get_trace()
+        traces.append(job_trace)
+    mem_store = memory.Memory(maxlen=pm.REPLAY_MEMORY_SIZE)
+    logger.info("Filling experience buffer...")
+    for epoch in range(pm.TOT_TRAIN_EPOCHS):
+        logger.info("epoch:" + str(epoch))
+        for episode in range(pm.TRAIN_EPOCH_SIZE):
+            tic = time.time()
+            job_trace = copy.deepcopy(traces[episode])
+            if pm.HEURISTIC == "DRF":
+                env = drf_env.DRF_Env("DRF", job_trace, logger)
+            elif pm.HEURISTIC == "FIFO":
+                env = fifo_env.FIFO_Env("FIFO", job_trace, logger)
+            elif pm.HEURISTIC == "SRTF":
+                env = srtf_env.SRTF_Env("SRTF", job_trace, logger)
+            elif pm.HEURISTIC == "Tetris":
+                env = tetris_env.Tetris_Env("Tetris", job_trace, logger)
+            elif pm.HEURISTIC == "Optimus":
+                env = optimus_env.Optimus_Env("Optimus", job_trace, logger)
+
+            while not env.end:
+                if pm.LOG_MODE == "DEBUG":
+                    time.sleep(0.01)
+                data = env.step()
+                logger.info("ts length:" + str(len(data)))
+                logger.info("len(self.completed_jobs)" + str(len(env.completed_jobs)))
+
+                for (input, label) in data:
+                    mem_store.store(input, 0, label, 0)
+                # store in mem,  use random SGD, take sample from mem_store, then begin superversed learning to calculate gradients
+                logger.info("len(self.memory)" + str(len(mem_store.memory)))
+                if mem_store.full():
+                    # prepare a training batch
+                    _, trajectories, _ = mem_store.sample(pm.MINI_BATCH_SIZE)
+                    input_batch = [traj.state for traj in trajectories]
+                    label_batch = [traj.action for traj in trajectories]
+                    logger.info("prepared a training batch")
+
+                    # pull latest weights before training
+                    weights = net_weights_q.get()
+                    if isinstance(weights, basestring) and weights == "exit":
+                        logger.info("Agent " + str(id) + " exits.")
+                        exit(0)
+                    policy_net.set_weights(weights)
+
+                    # superversed learning to calculate gradients
+                    logger.info("superversed learning to calculate gradients")
+                    entropy, loss, policy_grads = policy_net.get_sl_gradients(np.stack(input_batch),
+                                                                              np.vstack(label_batch))
+                    logger.info("len(env.completed_jobs):" + str(len(env.completed_jobs)) + "loss :" + str(loss))
+                    for i in range(len(policy_grads)):
+                        assert np.any(np.isnan(policy_grads[i])) == False
+
+                    # send gradients to the central agent
+                    net_gradients_q.put(policy_grads)
+
+                    # validation
+                    if not pm.VAL_ON_MASTER and global_step % pm.VAL_INTERVAL == 0:
+                        val_tic = time.time()
+                        val_loss = validate.val_loss(policy_net, validation_traces, logger, global_step)
+                        jct, makespan, reward = validate.val_jmr(policy_net, validation_traces, logger, global_step)
+                        stats_q.put(("val", val_loss, jct, makespan, reward))
+                        val_toc = time.time()
+                        logger.info(
+                            "Agent " + str(id) + " Validation at step " + str(global_step) + " Time: " + '%.3f' % (
+                                    val_toc - val_tic))
+                    stats_q.put(("step:sl", entropy, loss))
+
+                    global_step += 1
+
+            num_jobs, jct, makespan, reward = env.get_results()
+            avg_jct.append(jct)
+            avg_makespan.append(makespan)
+            avg_reward.append(reward)
+            if global_step % pm.DISP_INTERVAL == 0:
+                logger.info("Agent\t AVG JCT\t Makespan\t Reward")
+                logger.info(str(id) + " \t \t " + '%.3f' % (sum(avg_jct) / len(avg_jct)) + " \t\t" + " " + '%.3f' % (
+                        1.0 * sum(avg_makespan) / len(avg_makespan)) \
+                            + " \t" + " " + '%.3f' % (sum(avg_reward) / len(avg_reward)))
