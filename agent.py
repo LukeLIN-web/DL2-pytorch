@@ -379,7 +379,7 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
     avg_jct = []
     avg_makespan = []
     avg_reward = []
-    if not pm.VAL_ON_MASTER:
+    if pm.VAL_ON_MASTER:
         validation_traces = []  # validation traces
         for i in range(pm.VAL_DATASET):
             validation_traces.append(trace.Trace(None).get_trace())
@@ -423,7 +423,7 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                     _, trajectories, _ = mem_store.sample(pm.MINI_BATCH_SIZE)
                     input_batch = [traj.state for traj in trajectories]
                     label_batch = [traj.action for traj in trajectories]
-                    logger.info("prepared a training batch")
+                    # logger.info("prepared a training batch")
 
                     # pull latest weights before training
                     # weights = net_weights_q.get()
@@ -433,7 +433,7 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                     # policy_net.set_weights(weights)
 
                     # supervised learning to calculate gradients
-                    logger.info("supervised learning to calculate gradients")
+                    # logger.info("supervised learning to calculate gradients")
                     # entropy, loss, policy_grads = policy_net.get_sl_gradients(np.stack(input_batch),
                     # np.vstack(label_batch))
                     output, loss = policy_net.get_sl_loss(torch.from_numpy(np.stack(input_batch)),
@@ -441,7 +441,7 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                     loss.backward()
                     policy_net.optimizer.step()  # Apply these gradients
 
-                    logger.info("len(env.completed_jobs):" + str(len(env.completed_jobs)) + "loss :" + str(loss.item()))
+                    # logger.info("len(env.completed_jobs):" + str(len(env.completed_jobs)) + "loss :" + str(loss.item()))
                     # for i in range(len(policy_grads)):
                     #     assert np.any(np.isnan(policy_grads[i])) is False
 
@@ -449,7 +449,8 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                     # net_gradients_q.put(policy_grads)
 
                     # validation
-                    if not pm.VAL_ON_MASTER and global_step % pm.VAL_INTERVAL == 0:
+                    logger.info("hh"+str(global_step))
+                    if pm.VAL_ON_MASTER and global_step % pm.VAL_INTERVAL == 0:
                         val_tic = time.time()
                         val_loss = validate.val_loss(policy_net, validation_traces, logger, global_step)
                         jct, makespan, reward = validate.val_jmr(policy_net, validation_traces, logger, global_step)
