@@ -410,13 +410,14 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                 if pm.LOG_MODE == "DEBUG":
                     time.sleep(0.01)
                 data = env.step()
-                logger.info("ts length:" + str(len(data)))
-                logger.info("len(self.completed_jobs)" + str(len(env.completed_jobs)))
+                # logger.info("ts length:" + str(len(data)))
+                # logger.info("len(self.completed_jobs)" + str(len(env.completed_jobs)))
 
                 for (input, label) in data:
                     mem_store.store(input, 0, label, 0)
-                # store in mem,  use random SGD, take sample from mem_store, then begin superversed learning to calculate gradients
-                logger.info("len(self.memory)" + str(len(mem_store.memory)))
+                # store in mem,  use random SGD, take sample from mem_store,
+                # then begin supervised learning to calculate gradients
+                # logger.info("len(self.memory)" + str(len(mem_store.memory)))
                 if mem_store.full():
                     # prepare a training batch
                     _, trajectories, _ = mem_store.sample(pm.MINI_BATCH_SIZE)
@@ -433,11 +434,16 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
 
                     # supervised learning to calculate gradients
                     logger.info("supervised learning to calculate gradients")
-                    entropy, loss, policy_grads = policy_net.get_sl_gradients(np.stack(input_batch),
-                                                                              np.vstack(label_batch))
-                    logger.info("len(env.completed_jobs):" + str(len(env.completed_jobs)) + "loss :" + str(loss))
-                    for i in range(len(policy_grads)):
-                        assert np.any(np.isnan(policy_grads[i])) is False
+                    # entropy, loss, policy_grads = policy_net.get_sl_gradients(np.stack(input_batch),
+                    # np.vstack(label_batch))
+                    output, loss = policy_net.get_sl_loss(torch.from_numpy(np.stack(input_batch)),
+                                                          torch.from_numpy(np.vstack(label_batch)))
+                    loss.backward()
+                    policy_net.optimizer.step()  # Apply these gradients
+
+                    logger.info("len(env.completed_jobs):" + str(len(env.completed_jobs)) + "loss :" + str(loss.item()))
+                    # for i in range(len(policy_grads)):
+                    #     assert np.any(np.isnan(policy_grads[i])) is False
 
                     # send gradients to the central agent
                     # net_gradients_q.put(policy_grads)
@@ -447,12 +453,12 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                         val_tic = time.time()
                         val_loss = validate.val_loss(policy_net, validation_traces, logger, global_step)
                         jct, makespan, reward = validate.val_jmr(policy_net, validation_traces, logger, global_step)
-                        stats_q.put(("val", val_loss, jct, makespan, reward))
+                        # stats_q.put(("val", val_loss, jct, makespan, reward))
                         val_toc = time.time()
                         logger.info(
                             "Agent " + str(id) + " Validation at step " + str(global_step) + " Time: " + '%.3f' % (
                                     val_toc - val_tic))
-                    stats_q.put(("step:sl", entropy, loss))
+                    # stats_q.put(("step:sl", entropy, loss))
 
                     global_step += 1
 

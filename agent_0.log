@@ -1,1 +1,2630 @@
  agent.py:370 INFO: Start supervised learning, agent 0 ...
+ agent.py:392 INFO: Filling experience buffer...
+ agent.py:394 INFO: epoch:0
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609434962272644
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094330549240112
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094353199005127
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094340085983276
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6094352006912231
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):0loss :1.6094340085983276
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6094340085983276
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6094326972961426
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6094337701797485
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094332933425903
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094341278076172
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609431505203247
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609432339668274
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094344854354858
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094319820404053
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094316244125366
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094330549240112
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094313859939575
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094292402267456
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094300746917725
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094318628311157
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094305515289307
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094306707382202
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094287633895874
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094282865524292
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094306707382202
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094318628311157
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094293594360352
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094292402267456
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094279289245605
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094306707382202
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609431266784668
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094303131103516
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094294786453247
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609429121017456
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609427809715271
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094305515289307
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094305515289307
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094293594360352
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094282865524292
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6094285249710083
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.609426498413086
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6094269752502441
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6094251871109009
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6094287633895874
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6094257831573486
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094239950180054
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6094262599945068
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094250679016113
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094239950180054
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094229221343994
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609426498413086
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094211339950562
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094229221343994
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094226837158203
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094228029251099
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609421968460083
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094204187393188
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609422206878662
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094223260879517
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094197034835815
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094176769256592
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094205379486084
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094218492507935
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094210147857666
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609422206878662
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094218492507935
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094189882278442
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6094176769256592
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.609421730041504
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6094223260879517
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094175577163696
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094189882278442
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094160079956055
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094152927398682
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094166040420532
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094180345535278
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094166040420532
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094164848327637
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094138622283936
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094155311584473
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094166040420532
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609409213066101
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094131469726562
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094155311584473
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094177961349487
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609412431716919
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094136238098145
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609412670135498
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094083786010742
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094157695770264
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609413981437683
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094167232513428
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609410047531128
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094136238098145
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094056367874146
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094064712524414
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094053983688354
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609411358833313
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094130277633667
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094075441360474
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094032526016235
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094051599502563
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.609413743019104
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6094049215316772
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6094034910202026
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6094013452529907
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6094059944152832
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094001531600952
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6094045639038086
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609404444694519
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094063520431519
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094053983688354
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093990802764893
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094008684158325
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094038486480713
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094028949737549
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094013452529907
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093961000442505
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094039678573608
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609394907951355
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093969345092773
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093958616256714
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093941926956177
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093982458114624
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093937158584595
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093939542770386
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093883514404297
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093920469284058
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093977689743042
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093981266021729
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094080209732056
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093980073928833
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.60939621925354
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609397530555725
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609393835067749
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093862056732178
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093857288360596
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.609382152557373
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):0loss :1.6093933582305908
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093850135803223
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093876361846924
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093814373016357
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093825101852417
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093931198120117
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093878746032715
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609383463859558
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093968152999878
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093833446502686
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609384298324585
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093847751617432
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093902587890625
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609377145767212
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093841791152954
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093852519989014
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093823909759521
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093724966049194
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093822717666626
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093785762786865
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093823909759521
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093708276748657
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093729734420776
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093730926513672
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093798875808716
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609373927116394
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093679666519165
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093801259994507
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093684434890747
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093765497207642
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609371542930603
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093658208847046
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093714237213135
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093647480010986
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093701124191284
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093661785125732
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609381914138794
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093608140945435
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093783378601074
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093707084655762
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093666553497314
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609375
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093664169311523
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609372854232788
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093659400939941
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093696355819702
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609371542930603
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093685626983643
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093649864196777
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093685626983643
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093608140945435
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093697547912598
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093664169311523
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609368085861206
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093589067459106
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093770265579224
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609363317489624
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093705892562866
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093511581420898
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093668937683105
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609356164932251
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093648672103882
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093573570251465
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093616485595703
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093485355377197
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.60935378074646
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093580722808838
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093502044677734
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609357237815857
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.60935640335083
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093581914901733
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093473434448242
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093566417694092
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609352469444275
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609358310699463
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093541383743286
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6094094514846802
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093554496765137
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609358310699463
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093618869781494
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609357237815857
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093629598617554
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093605756759644
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609351396560669
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609356164932251
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093602180480957
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609362244606018
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609354019165039
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093597412109375
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093595027923584
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093827486038208
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093592643737793
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609346866607666
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093488931655884
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609346628189087
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093510389328003
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093640327453613
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093469858169556
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609354853630066
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093409061431885
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093533039093018
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093696355819702
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093541383743286
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093552112579346
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093531847000122
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.609339714050293
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093697547912598
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093616485595703
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093592643737793
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093553304672241
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093525886535645
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093648672103882
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093641519546509
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094238758087158
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609351634979248
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093578338623047
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093493700027466
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093573570251465
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093766689300537
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.60935378074646
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093653440475464
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093536615371704
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093716621398926
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093394756317139
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093603372573853
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093578338623047
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093484163284302
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093578338623047
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609349250793457
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093449592590332
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093530654907227
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093459129333496
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6093531847000122
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093519926071167
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093395948410034
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609354019165039
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093510389328003
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093838214874268
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093413829803467
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609354019165039
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093589067459106
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093558073043823
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):1loss :1.6093437671661377
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6093450784683228
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6093398332595825
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093450784683228
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093502044677734
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093477010726929
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093428134918213
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093716621398926
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093449592590332
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093425750732422
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093493700027466
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093474626541138
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093446016311646
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093409061431885
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093518733978271
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093677282333374
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093462705612183
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609334945678711
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609349012374878
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.60933518409729
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093487739562988
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093417406082153
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093430519104004
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093376874923706
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093523502349854
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6093498468399048
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6094142198562622
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609346628189087
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093461513519287
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093453168869019
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093485355377197
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093577146530151
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093484163284302
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093511581420898
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093924045562744
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093546152114868
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609336495399475
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093486547470093
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093614101409912
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093497276306152
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093428134918213
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093506813049316
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609334945678711
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093473434448242
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093333959579468
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093542575836182
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093491315841675
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093566417694092
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093356609344482
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093426942825317
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609417200088501
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093515157699585
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093497276306152
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093437671661377
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093535423278809
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094094514846802
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093521118164062
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609359860420227
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093699932098389
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609347939491272
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093486547470093
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093461513519287
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):1loss :1.6093326807022095
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093907356262207
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093405485153198
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093393564224243
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093361377716064
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093395948410034
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609334111213684
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093506813049316
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094253063201904
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093287467956543
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093469858169556
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094028949737549
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093358993530273
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609390139579773
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093504428863525
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093472242355347
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093409061431885
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093308925628662
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094088554382324
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093462705612183
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093322038650513
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094332933425903
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093546152114868
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093732118606567
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093451976776123
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609334111213684
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093428134918213
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093854904174805
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093430519104004
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609346628189087
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093429327011108
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093312501907349
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093794107437134
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093450784683228
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609342098236084
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093376874923706
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093636751174927
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093437671661377
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093543767929077
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093204021453857
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093437671661377
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093252897262573
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093517541885376
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609343409538269
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093493700027466
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609355092048645
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609349012374878
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609339952468872
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093297004699707
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093459129333496
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093316078186035
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609351634979248
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093394756317139
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609349250793457
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093471050262451
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093568801879883
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093510389328003
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093474626541138
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609403371810913
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609349012374878
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094049215316772
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093472242355347
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093378067016602
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093155145645142
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093382835388184
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093299388885498
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093493700027466
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609337568283081
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094061136245728
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093348264694214
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093369722366333
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093435287475586
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609350562095642
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093343496322632
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093262434005737
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093288660049438
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.60932457447052
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093412637710571
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093552112579346
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093416213989258
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093308925628662
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609336256980896
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609342098236084
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093299388885498
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093578338623047
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609317660331726
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093403100967407
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093552112579346
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093443632125854
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093339920043945
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093474626541138
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093271970748901
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093469858169556
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093579530715942
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093246936798096
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093345880508423
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093450784683228
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609343409538269
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609404444694519
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093456745147705
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093388795852661
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093378067016602
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093248128890991
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093313694000244
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609377145767212
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093326807022095
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093575954437256
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093281507492065
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093437671661377
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093320846557617
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093441247940063
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093436479568481
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093385219573975
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609344720840454
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093419790267944
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093511581420898
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093496084213257
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609320044517517
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609346866607666
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093393564224243
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609375
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093624830245972
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609337568283081
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093320846557617
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609338402748108
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.609336256980896
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093370914459229
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093463897705078
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093961000442505
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609340786933899
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609354019165039
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093370914459229
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093358993530273
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093425750732422
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093523502349854
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609351634979248
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093392372131348
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093474626541138
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093562841415405
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093674898147583
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093302965164185
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093348264694214
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093450784683228
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093451976776123
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093519926071167
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093149185180664
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609327793121338
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093370914459229
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093374490737915
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093920469284058
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093512773513794
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093389987945557
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093356609344482
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609358787536621
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.609334111213684
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093356609344482
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6094026565551758
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093345880508423
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093560457229614
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093744039535522
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093555688858032
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093409061431885
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093753576278687
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609356164932251
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609364628791809
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093302965164185
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093623638153076
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609344720840454
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093436479568481
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093401908874512
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093409061431885
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093612909317017
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609336495399475
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093274354934692
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093250513076782
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609337568283081
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093400716781616
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093608140945435
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093478202819824
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093600988388062
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094324588775635
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093196868896484
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093753576278687
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094329357147217
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093804836273193
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093519926071167
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609325885772705
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609359622001648
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093542575836182
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093401908874512
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093761920928955
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6094223260879517
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093521118164062
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093506813049316
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093528270721436
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.609363079071045
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093189716339111
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093461513519287
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093542575836182
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093379259109497
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093257665634155
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093409061431885
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609385371208191
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093343496322632
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093661785125732
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609316110610962
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093497276306152
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609350562095642
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609351634979248
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093648672103882
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093569993972778
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093859672546387
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093273162841797
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093522310256958
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094176769256592
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094050407409668
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094000339508057
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609413981437683
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6094114780426025
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093597412109375
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609406590461731
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093883514404297
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609424114227295
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093989610671997
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6094839572906494
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093800067901611
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094356775283813
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094365119934082
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094111204147339
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609452247619629
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609419345855713
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093668937683105
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094121932983398
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093767881393433
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094175577163696
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093649864196777
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094043254852295
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609330415725708
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609407901763916
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093779802322388
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094053983688354
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094204187393188
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094012260437012
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094040870666504
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609418511390686
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093988418579102
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.609413743019104
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6094027757644653
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609381079673767
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609411358833313
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093733310699463
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093870401382446
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.609358549118042
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093841791152954
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.609358310699463
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093683242797852
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093628406524658
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6094071865081787
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093708276748657
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093348264694214
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6094019412994385
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609291911125183
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093521118164062
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609352469444275
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093807220458984
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093376874923706
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094013452529907
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609387755393982
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093779802322388
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609453558921814
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093522310256958
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093754768371582
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093862056732178
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609362006187439
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093616485595703
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094071865081787
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093918085098267
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093952655792236
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093759536743164
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093500852584839
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094249486923218
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093634366989136
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609378457069397
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093553304672241
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609343409538269
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093891859054565
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094127893447876
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093684434890747
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093498468399048
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6093801259994507
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093670129776
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093881130218506
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093868017196655
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093084812164307
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609370231628418
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093521118164062
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094390153884888
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609316110610962
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093720197677612
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093751192092896
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093389987945557
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609356164932251
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609337568283081
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093231439590454
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093454360961914
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093486547470093
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093342304229736
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093369722366333
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609346628189087
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093350648880005
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093428134918213
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093379259109497
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093477010726929
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609337329864502
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093533039093018
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093521118164062
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093493700027466
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609350562095642
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093299388885498
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093403100967407
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093568801879883
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093581914901733
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609361171722412
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093369722366333
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.609368085861206
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093624830245972
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093378067016602
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093453168869019
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609350323677063
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093497276306152
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609360694885254
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093521118164062
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093295812606812
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093453168869019
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093429327011108
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093125343322754
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093209981918335
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093486547470093
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093319654464722
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093223094940186
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093376874923706
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093533039093018
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093560457229614
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609428882598877
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093320846557617
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093552112579346
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093345880508423
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093488931655884
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093628406524658
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609348177909851
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093766689300537
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093435287475586
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.609330415725708
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093487739562988
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.609348177909851
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093276739120483
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609361171722412
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093395948410034
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093446016311646
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093463897705078
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093400716781616
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093263626098633
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093586683273315
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093292236328125
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609323263168335
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609375
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093614101409912
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093311309814453
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093348264694214
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093754768371582
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.60938560962677
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093441247940063
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093369722366333
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609365463256836
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093401908874512
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609349012374878
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093239784240723
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093716621398926
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093541383743286
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):1loss :1.609343409538269
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093515157699585
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093385219573975
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093456745147705
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093541383743286
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093536615371704
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093392372131348
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093342304229736
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093871593475342
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093233823776245
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.60933256149292
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093459129333496
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093231439590454
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093671321868896
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093811988830566
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609338402748108
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093978881835938
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093453168869019
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093541383743286
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609351396560669
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093209981918335
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093404293060303
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093388795852661
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093400716781616
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609302043914795
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.60933518409729
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093380451202393
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093699932098389
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093395948410034
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093323230743408
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093751192092896
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093378067016602
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093354225158691
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609371542930603
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609364628791809
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093366146087646
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093496084213257
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609350323677063
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093493700027466
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609309196472168
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609352707862854
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093286275863647
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093379259109497
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093435287475586
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093553304672241
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609386920928955
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093354225158691
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093780994415283
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093347072601318
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093273162841797
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093733310699463
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093547344207764
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093494892120361
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093353033065796
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093806028366089
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093475818634033
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609330415725708
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093276739120483
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093982458114624
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093658208847046
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093841791152954
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609343409538269
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093776226043701
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093618869781494
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609350562095642
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093372106552124
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093565225601196
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093536615371704
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093544960021973
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093266010284424
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609342098236084
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093418598175049
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093227863311768
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.609349250793457
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):1loss :1.6093448400497437
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):2loss :1.6093227863311768
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6094157695770264
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093953847885132
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093484163284302
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.609318494796753
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.609358787536621
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093688011169434
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093451976776123
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093416213989258
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093294620513916
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093440055847168
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093354225158691
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093471050262451
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093641519546509
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609407663345337
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609339714050293
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093590259552002
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093400716781616
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609339952468872
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093413829803467
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093634366989136
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093250513076782
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093389987945557
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093555688858032
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.609351396560669
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093205213546753
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093294620513916
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093450784683228
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093190908432007
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):3loss :1.6093441247940063
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):4loss :1.6093605756759644
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093567609786987
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.6093413829803467
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):6loss :1.609367847442627
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094022989273071
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093419790267944
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093780994415283
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093339920043945
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093440055847168
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093480587005615
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093412637710571
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093858480453491
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093473434448242
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093536615371704
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609323501586914
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093605756759644
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609372854232788
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093366146087646
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6094303131103516
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093382835388184
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093549728393555
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609317421913147
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093411445617676
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093368530273438
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093403100967407
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609329342842102
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093488931655884
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093322038650513
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093553304672241
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093318462371826
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093130111694336
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093473434448242
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609346628189087
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.609309434890747
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):10loss :1.6093195676803589
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):1loss :1.609339952468872
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):5loss :1.6093500852584839
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):7loss :1.6093430519104004
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.6093237400054932
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):8loss :1.609349250793457
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
+ agent.py:444 INFO: len(env.completed_jobs):9loss :1.6093438863754272
+ agent.py:426 INFO: prepared a training batch
+ agent.py:436 INFO: supervised learning to calculate gradients
