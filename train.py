@@ -60,21 +60,22 @@ def main():
     # agent.central_agent(net_weights_qs, net_gradients_qs, stats_qs)
     # log_config()  # It used to place in central agent
 
-    master = multiprocessing.Process(target=agent.central_agent, args=(net_weights_qs, net_gradients_qs, stats_qs,))
-    master.start()
+    # master = multiprocessing.Process(target=agent.central_agent, args=(net_weights_qs, net_gradients_qs, stats_qs,))
+    # master.start()
 
-    if pm.TRAINING_MODE == "SL":
-        agents = [
-            multiprocessing.Process(target=agent.sl_agent,
-                                    args=(net_weights_qs[i], net_gradients_qs[i], stats_qs[i], i,)) for
-            i in range(pm.NUM_AGENTS)]
-    elif pm.TRAINING_MODE == "RL":
-        agents = [
-            multiprocessing.Process(target=rl_agent, args=(net_weights_qs[i], net_gradients_qs[i], stats_qs[i], i,)) for
-            i in range(pm.NUM_AGENTS)]
-    for i in range(pm.NUM_AGENTS):
-        agents[i].start()
-    master.join()
+    # if pm.TRAINING_MODE == "SL":
+    #     agents = [
+    #         multiprocessing.Process(target=agent.sl_agent,
+    #                                 args=(net_weights_qs[i], net_gradients_qs[i], stats_qs[i], i,)) for
+    #         i in range(pm.NUM_AGENTS)]
+    # elif pm.TRAINING_MODE == "RL":
+    #     agents = [
+    #         multiprocessing.Process(target=rl_agent, args=(net_weights_qs[i], net_gradients_qs[i], stats_qs[i], i,)) for
+    #         i in range(pm.NUM_AGENTS)]
+    # for i in range(pm.NUM_AGENTS):
+    #     agents[i].start()
+    # master.join()
+    agent.sl_agent(net_weights_qs[0], net_gradients_qs[0], stats_qs[0], 0)
 
 
 if __name__ == "__main__":

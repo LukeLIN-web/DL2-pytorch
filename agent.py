@@ -198,7 +198,7 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
         np.random.seed(pm.np_seed)
         torch.manual_seed(pm.tr_seed)  # specific gpu use:torch.cuda.manual_seed(seed)
 
-    writer = SummaryWriter(pm.SUMMARY_DIR)
+    # writer = SummaryWriter(pm.SUMMARY_DIR)
 
     policy_net = network.PolicyNetwork("policy_net", pm.TRAINING_MODE, logger)
     if pm.VALUE_NET:
@@ -261,9 +261,9 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
                     step) + " Speed " + '%.3f' % speed + " batches/sec" + " Time " + '%.3f' % elaps_t + " seconds")
 
             # statistics
-            collect_stats(stats_qs, writer, step)
-            writer.close()
-            exit()
+            # collect_stats(stats_qs, writer, step)
+            # writer.close()
+
             if not pm.FIX_LEARNING_RATE:
                 if step in pm.ADJUST_LR_STEPS:
                     policy_net.lr /= 2
@@ -273,8 +273,8 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
             if step < pm.STEP_TRAIN_CRITIC_NET:  # set policy net lr to 0 to train critic net only
                 policy_net.lr = 0.0
 
-            if step % pm.DISP_INTERVAL == 0:
-                writer.add_scalar(tag="Learning rate", scalar_value=policy_net.lr, global_step=step)
+            # if step % pm.DISP_INTERVAL == 0:
+            # writer.add_scalar(tag="Learning rate", scalar_value=policy_net.lr, global_step=step)
 
             # save model
             if step % pm.CHECKPOINT_INTERVAL == 0:
@@ -301,8 +301,8 @@ def central_agent(net_weights_qs, net_gradients_qs, stats_qs):
                     logger.info("Value model saved: " + model_name)
 
             # validation
-            if pm.VAL_ON_MASTER and step % pm.VAL_INTERVAL == 0:
-                test(policy_net, copy.deepcopy(validation_traces), logger, step, writer)
+            # if pm.VAL_ON_MASTER and step % pm.VAL_INTERVAL == 0:
+            #     test(policy_net, copy.deepcopy(validation_traces), logger, step, writer)
 
             # poll and update parameters
             poll_ids = set([i for i in range(pm.NUM_AGENTS)])
@@ -425,22 +425,22 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                     logger.info("prepared a training batch")
 
                     # pull latest weights before training
-                    weights = net_weights_q.get()
-                    if isinstance(weights, basestring) and weights == "exit":
-                        logger.info("Agent " + str(id) + " exits.")
-                        exit(0)
-                    policy_net.set_weights(weights)
+                    # weights = net_weights_q.get()
+                    # if isinstance(weights, str) and weights == "exit":
+                    #     logger.info("Agent " + str(id) + " exits.")
+                    #     exit(0)
+                    # policy_net.set_weights(weights)
 
-                    # superversed learning to calculate gradients
-                    logger.info("superversed learning to calculate gradients")
+                    # supervised learning to calculate gradients
+                    logger.info("supervised learning to calculate gradients")
                     entropy, loss, policy_grads = policy_net.get_sl_gradients(np.stack(input_batch),
                                                                               np.vstack(label_batch))
                     logger.info("len(env.completed_jobs):" + str(len(env.completed_jobs)) + "loss :" + str(loss))
                     for i in range(len(policy_grads)):
-                        assert np.any(np.isnan(policy_grads[i])) == False
+                        assert np.any(np.isnan(policy_grads[i])) is False
 
                     # send gradients to the central agent
-                    net_gradients_q.put(policy_grads)
+                    # net_gradients_q.put(policy_grads)
 
                     # validation
                     if not pm.VAL_ON_MASTER and global_step % pm.VAL_INTERVAL == 0:
