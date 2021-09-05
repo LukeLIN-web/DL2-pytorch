@@ -1,11 +1,11 @@
- agent.py:189 INFO: Start central agent...
- agent.py:201 INFO: create the policy network
- agent.py:203 INFO: name: linears.0.weight, param: torch.Size([66, 20])
- agent.py:203 INFO: name: linears.0.bias, param: torch.Size([66])
- agent.py:203 INFO: name: linears.2.weight, param: torch.Size([66, 66])
- agent.py:203 INFO: name: linears.2.bias, param: torch.Size([66])
- agent.py:203 INFO: name: linears.4.weight, param: torch.Size([61, 66])
- agent.py:203 INFO: name: linears.4.bias, param: torch.Size([61])
- agent.py:217 INFO: start validation for heuristics and initialized NN.
- agent.py:236 INFO: Finish validation for heuristics and initialized NN.
- agent.py:239 INFO: step:1
+ agent.py:195 INFO: Start central agent...
+ agent.py:207 INFO: create the policy network
+ agent.py:209 INFO: name: linears.0.weight, param: torch.Size([66, 20])
+ agent.py:209 INFO: name: linears.0.bias, param: torch.Size([66])
+ agent.py:209 INFO: name: linears.2.weight, param: torch.Size([66, 66])
+ agent.py:209 INFO: name: linears.2.bias, param: torch.Size([66])
+ agent.py:209 INFO: name: linears.4.weight, param: torch.Size([61, 66])
+ agent.py:209 INFO: name: linears.4.bias, param: torch.Size([61])
+ agent.py:223 INFO: start validation for heuristics and initialized NN.
+ agent.py:242 INFO: Finish validation for heuristics and initialized NN.
+ agent.py:245 INFO: step:1

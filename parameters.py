@@ -66,6 +66,8 @@ VAL_INTERVAL = 200  # validation interval
 if TRAINING_MODE == "SL":
     VAL_INTERVAL = 50
 VAL_ON_MASTER = True  # validation on agent uses CPU instead of GPU, and may cause use up all memory, do not know why, so far it must be set true
+
+REPLAY_MEMORY_SIZE = 8192  # or 65536
 NUM_UNCOMPLETED_JOB_REWARD = False  # set the reward to be the number of uncompleted jobs
 
 INJECT_SAMPLES = True  # inject samples to experience buffer to get samples with high reward
@@ -97,6 +99,7 @@ REAL_SPEED_TRACE = True  # whether to use real traces collected from experiment 
 FIX_JOB_LEN = True
 JOB_LEN_PATTERN = "Normal"  # Ali_Trace, Normal
 JOB_ARRIVAL_PATTERN = "Uniform"  # Ali_Trace, Uniform, Google_Trace, Poisson
+TRAIN_EPOCH_SIZE = 100  # number of traces for training dataset
 MAX_ARRVS_PER_TS = 3  # max number of jobs arrived in one time slot
 MAX_NUM_EPOCHS = 30000  # maximum duration of jobs, epochs. default 200
 MAX_NUM_WORKERS = 16

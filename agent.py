@@ -2,6 +2,12 @@
 import copy
 import torch
 import comparison
+import drf_env
+import fifo_env
+import memory
+import optimus_env
+import srtf_env
+import tetris_env
 import validate
 import parameters as pm
 import log
