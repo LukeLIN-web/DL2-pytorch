@@ -35,7 +35,7 @@ MODEL_DIR = "Models/"  # checkpoint dir
 CHECKPOINT_INTERVAL = 10000
 if TRAINING_MODE == "SL":
     CHECKPOINT_INTERVAL = 100
-DISP_INTERVAL = 50  # display frequency
+DISP_INTERVAL = 40  # display frequency , origin =50
 VISUAL_GW_INTERVAL = 1000  # tf log gradients/weights frequency
 NUM_RECORD_AGENTS = 2  # log details of 2 agents in tensorboard and ignore others for saved space
 SKIP_FIRST_VAL = True  # if False, the central agent will test the initialized model at first before training

@@ -1,53 +1,323 @@
  agent.py:370 INFO: Start supervised learning, agent 0 ...
  agent.py:392 INFO: Filling experience buffer...
  agent.py:394 INFO: epoch:0
- agent.py:452 INFO: hh1
- agent.py:452 INFO: hh2
- agent.py:452 INFO: hh3
- agent.py:452 INFO: hh4
- agent.py:452 INFO: hh5
- agent.py:452 INFO: hh6
- agent.py:452 INFO: hh7
- agent.py:452 INFO: hh8
- agent.py:452 INFO: hh9
- agent.py:452 INFO: hh10
- agent.py:452 INFO: hh11
- agent.py:452 INFO: hh12
- agent.py:452 INFO: hh13
- agent.py:452 INFO: hh14
- agent.py:452 INFO: hh15
- agent.py:452 INFO: hh16
- agent.py:452 INFO: hh17
- agent.py:452 INFO: hh18
- agent.py:452 INFO: hh19
- agent.py:452 INFO: hh20
- agent.py:452 INFO: hh21
- agent.py:452 INFO: hh22
- agent.py:452 INFO: hh23
- agent.py:452 INFO: hh24
- agent.py:452 INFO: hh25
- agent.py:452 INFO: hh26
- agent.py:452 INFO: hh27
- agent.py:452 INFO: hh28
- agent.py:452 INFO: hh29
- agent.py:452 INFO: hh30
- agent.py:452 INFO: hh31
- agent.py:452 INFO: hh32
- agent.py:452 INFO: hh33
- agent.py:452 INFO: hh34
- agent.py:452 INFO: hh35
- agent.py:452 INFO: hh36
- agent.py:452 INFO: hh37
- agent.py:452 INFO: hh38
- agent.py:452 INFO: hh39
- agent.py:452 INFO: hh40
- agent.py:452 INFO: hh41
- agent.py:452 INFO: hh42
- agent.py:452 INFO: hh43
- agent.py:452 INFO: hh44
- agent.py:452 INFO: hh45
- agent.py:452 INFO: hh46
- agent.py:452 INFO: hh47
- agent.py:452 INFO: hh48
- agent.py:452 INFO: hh49
- agent.py:452 INFO: hh50
+ agent.py:396 INFO: episode length:0
+ agent.py:471 INFO: Agent	 AVG JCT	 Makespan	 Reward
+ agent.py:472 INFO: 0 	 	 5.535 		 35.678 	 0.479
+ agent.py:396 INFO: episode length:1
+ agent.py:396 INFO: episode length:2
+ agent.py:396 INFO: episode length:3
+ agent.py:396 INFO: episode length:4
+ agent.py:396 INFO: episode length:5
+ agent.py:396 INFO: episode length:6
+ agent.py:396 INFO: episode length:7
+ agent.py:396 INFO: episode length:8
+ agent.py:396 INFO: episode length:9
+ agent.py:396 INFO: episode length:10
+ agent.py:396 INFO: episode length:11
+ agent.py:396 INFO: episode length:12
+ agent.py:396 INFO: episode length:13
+ agent.py:459 INFO: Agent 0 Validation at step 50 Time: 0.000
+ agent.py:396 INFO: episode length:14
+ agent.py:396 INFO: episode length:15
+ agent.py:459 INFO: Agent 0 Validation at step 100 Time: 0.000
+ agent.py:396 INFO: episode length:16
+ agent.py:459 INFO: Agent 0 Validation at step 150 Time: 0.000
+ agent.py:396 INFO: episode length:17
+ agent.py:396 INFO: episode length:18
+ agent.py:459 INFO: Agent 0 Validation at step 200 Time: 0.000
+ agent.py:396 INFO: episode length:19
+ agent.py:459 INFO: Agent 0 Validation at step 250 Time: 0.000
+ agent.py:396 INFO: episode length:20
+ agent.py:396 INFO: episode length:21
+ agent.py:459 INFO: Agent 0 Validation at step 300 Time: 0.000
+ agent.py:396 INFO: episode length:22
+ agent.py:396 INFO: episode length:23
+ agent.py:459 INFO: Agent 0 Validation at step 350 Time: 0.000
+ agent.py:396 INFO: episode length:24
+ agent.py:396 INFO: episode length:25
+ agent.py:459 INFO: Agent 0 Validation at step 400 Time: 0.000
+ agent.py:396 INFO: episode length:26
+ agent.py:396 INFO: episode length:27
+ agent.py:459 INFO: Agent 0 Validation at step 450 Time: 0.000
+ agent.py:396 INFO: episode length:28
+ agent.py:459 INFO: Agent 0 Validation at step 500 Time: 0.000
+ agent.py:396 INFO: episode length:29
+ agent.py:459 INFO: Agent 0 Validation at step 550 Time: 0.000
+ agent.py:396 INFO: episode length:30
+ agent.py:396 INFO: episode length:31
+ agent.py:396 INFO: episode length:32
+ agent.py:459 INFO: Agent 0 Validation at step 600 Time: 0.000
+ agent.py:396 INFO: episode length:33
+ agent.py:396 INFO: episode length:34
+ agent.py:459 INFO: Agent 0 Validation at step 650 Time: 0.000
+ agent.py:396 INFO: episode length:35
+ agent.py:396 INFO: episode length:36
+ agent.py:459 INFO: Agent 0 Validation at step 700 Time: 0.000
+ agent.py:396 INFO: episode length:37
+ agent.py:459 INFO: Agent 0 Validation at step 750 Time: 0.000
+ agent.py:396 INFO: episode length:38
+ agent.py:396 INFO: episode length:39
+ agent.py:396 INFO: episode length:40
+ agent.py:459 INFO: Agent 0 Validation at step 800 Time: 0.000
+ agent.py:471 INFO: Agent	 AVG JCT	 Makespan	 Reward
+ agent.py:472 INFO: 0 	 	 6.094 		 28.156 	 0.552
+ agent.py:396 INFO: episode length:41
+ agent.py:459 INFO: Agent 0 Validation at step 850 Time: 0.000
+ agent.py:396 INFO: episode length:42
+ agent.py:396 INFO: episode length:43
+ agent.py:459 INFO: Agent 0 Validation at step 900 Time: 0.000
+ agent.py:396 INFO: episode length:44
+ agent.py:459 INFO: Agent 0 Validation at step 950 Time: 0.000
+ agent.py:396 INFO: episode length:45
+ agent.py:396 INFO: episode length:46
+ agent.py:459 INFO: Agent 0 Validation at step 1000 Time: 0.000
+ agent.py:396 INFO: episode length:47
+ agent.py:396 INFO: episode length:48
+ agent.py:459 INFO: Agent 0 Validation at step 1050 Time: 0.000
+ agent.py:396 INFO: episode length:49
+ agent.py:459 INFO: Agent 0 Validation at step 1100 Time: 0.000
+ agent.py:396 INFO: episode length:50
+ agent.py:396 INFO: episode length:51
+ agent.py:459 INFO: Agent 0 Validation at step 1150 Time: 0.000
+ agent.py:396 INFO: episode length:52
+ agent.py:396 INFO: episode length:53
+ agent.py:459 INFO: Agent 0 Validation at step 1200 Time: 0.000
+ agent.py:396 INFO: episode length:54
+ agent.py:459 INFO: Agent 0 Validation at step 1250 Time: 0.000
+ agent.py:396 INFO: episode length:55
+ agent.py:396 INFO: episode length:56
+ agent.py:459 INFO: Agent 0 Validation at step 1300 Time: 0.000
+ agent.py:396 INFO: episode length:57
+ agent.py:459 INFO: Agent 0 Validation at step 1350 Time: 0.000
+ agent.py:396 INFO: episode length:58
+ agent.py:396 INFO: episode length:59
+ agent.py:459 INFO: Agent 0 Validation at step 1400 Time: 0.000
+ agent.py:396 INFO: episode length:60
+ agent.py:396 INFO: episode length:61
+ agent.py:459 INFO: Agent 0 Validation at step 1450 Time: 0.000
+ agent.py:396 INFO: episode length:62
+ agent.py:459 INFO: Agent 0 Validation at step 1500 Time: 0.000
+ agent.py:396 INFO: episode length:63
+ agent.py:396 INFO: episode length:64
+ agent.py:459 INFO: Agent 0 Validation at step 1550 Time: 0.000
+ agent.py:396 INFO: episode length:65
+ agent.py:396 INFO: episode length:66
+ agent.py:459 INFO: Agent 0 Validation at step 1600 Time: 0.000
+ agent.py:396 INFO: episode length:67
+ agent.py:396 INFO: episode length:68
+ agent.py:459 INFO: Agent 0 Validation at step 1650 Time: 0.000
+ agent.py:396 INFO: episode length:69
+ agent.py:396 INFO: episode length:70
+ agent.py:459 INFO: Agent 0 Validation at step 1700 Time: 0.000
+ agent.py:396 INFO: episode length:71
+ agent.py:459 INFO: Agent 0 Validation at step 1750 Time: 0.000
+ agent.py:396 INFO: episode length:72
+ agent.py:396 INFO: episode length:73
+ agent.py:459 INFO: Agent 0 Validation at step 1800 Time: 0.000
+ agent.py:396 INFO: episode length:74
+ agent.py:459 INFO: Agent 0 Validation at step 1850 Time: 0.000
+ agent.py:396 INFO: episode length:75
+ agent.py:396 INFO: episode length:76
+ agent.py:396 INFO: episode length:77
+ agent.py:396 INFO: episode length:78
+ agent.py:459 INFO: Agent 0 Validation at step 1900 Time: 0.000
+ agent.py:396 INFO: episode length:79
+ agent.py:396 INFO: episode length:80
+ agent.py:459 INFO: Agent 0 Validation at step 1950 Time: 0.000
+ agent.py:471 INFO: Agent	 AVG JCT	 Makespan	 Reward
+ agent.py:472 INFO: 0 	 	 5.977 		 28.048 	 0.562
+ agent.py:396 INFO: episode length:81
+ agent.py:396 INFO: episode length:82
+ agent.py:459 INFO: Agent 0 Validation at step 2000 Time: 0.000
+ agent.py:396 INFO: episode length:83
+ agent.py:396 INFO: episode length:84
+ agent.py:459 INFO: Agent 0 Validation at step 2050 Time: 0.000
+ agent.py:396 INFO: episode length:85
+ agent.py:396 INFO: episode length:86
+ agent.py:459 INFO: Agent 0 Validation at step 2100 Time: 0.000
+ agent.py:396 INFO: episode length:87
+ agent.py:459 INFO: Agent 0 Validation at step 2150 Time: 0.000
+ agent.py:396 INFO: episode length:88
+ agent.py:396 INFO: episode length:89
+ agent.py:459 INFO: Agent 0 Validation at step 2200 Time: 0.000
+ agent.py:396 INFO: episode length:90
+ agent.py:396 INFO: episode length:91
+ agent.py:459 INFO: Agent 0 Validation at step 2250 Time: 0.000
+ agent.py:396 INFO: episode length:92
+ agent.py:459 INFO: Agent 0 Validation at step 2300 Time: 0.000
+ agent.py:396 INFO: episode length:93
+ agent.py:396 INFO: episode length:94
+ agent.py:459 INFO: Agent 0 Validation at step 2350 Time: 0.000
+ agent.py:396 INFO: episode length:95
+ agent.py:459 INFO: Agent 0 Validation at step 2400 Time: 0.000
+ agent.py:396 INFO: episode length:96
+ agent.py:396 INFO: episode length:97
+ agent.py:396 INFO: episode length:98
+ agent.py:459 INFO: Agent 0 Validation at step 2450 Time: 0.000
+ agent.py:396 INFO: episode length:99
+ agent.py:459 INFO: Agent 0 Validation at step 2500 Time: 0.000
+ agent.py:394 INFO: epoch:1
+ agent.py:396 INFO: episode length:0
+ agent.py:471 INFO: Agent	 AVG JCT	 Makespan	 Reward
+ agent.py:472 INFO: 0 	 	 6.190 		 28.091 	 0.558
+ agent.py:396 INFO: episode length:1
+ agent.py:459 INFO: Agent 0 Validation at step 2550 Time: 0.000
+ agent.py:396 INFO: episode length:2
+ agent.py:459 INFO: Agent 0 Validation at step 2600 Time: 0.000
+ agent.py:396 INFO: episode length:3
+ agent.py:396 INFO: episode length:4
+ agent.py:459 INFO: Agent 0 Validation at step 2650 Time: 0.000
+ agent.py:396 INFO: episode length:5
+ agent.py:459 INFO: Agent 0 Validation at step 2700 Time: 0.000
+ agent.py:396 INFO: episode length:6
+ agent.py:396 INFO: episode length:7
+ agent.py:459 INFO: Agent 0 Validation at step 2750 Time: 0.000
+ agent.py:396 INFO: episode length:8
+ agent.py:396 INFO: episode length:9
+ agent.py:459 INFO: Agent 0 Validation at step 2800 Time: 0.000
+ agent.py:396 INFO: episode length:10
+ agent.py:396 INFO: episode length:11
+ agent.py:459 INFO: Agent 0 Validation at step 2850 Time: 0.000
+ agent.py:396 INFO: episode length:12
+ agent.py:396 INFO: episode length:13
+ agent.py:459 INFO: Agent 0 Validation at step 2900 Time: 0.000
+ agent.py:396 INFO: episode length:14
+ agent.py:396 INFO: episode length:15
+ agent.py:459 INFO: Agent 0 Validation at step 2950 Time: 0.000
+ agent.py:396 INFO: episode length:16
+ agent.py:459 INFO: Agent 0 Validation at step 3000 Time: 0.000
+ agent.py:396 INFO: episode length:17
+ agent.py:396 INFO: episode length:18
+ agent.py:459 INFO: Agent 0 Validation at step 3050 Time: 0.000
+ agent.py:396 INFO: episode length:19
+ agent.py:459 INFO: Agent 0 Validation at step 3100 Time: 0.000
+ agent.py:396 INFO: episode length:20
+ agent.py:396 INFO: episode length:21
+ agent.py:459 INFO: Agent 0 Validation at step 3150 Time: 0.000
+ agent.py:396 INFO: episode length:22
+ agent.py:396 INFO: episode length:23
+ agent.py:459 INFO: Agent 0 Validation at step 3200 Time: 0.000
+ agent.py:396 INFO: episode length:24
+ agent.py:396 INFO: episode length:25
+ agent.py:459 INFO: Agent 0 Validation at step 3250 Time: 0.000
+ agent.py:396 INFO: episode length:26
+ agent.py:459 INFO: Agent 0 Validation at step 3300 Time: 0.000
+ agent.py:396 INFO: episode length:27
+ agent.py:396 INFO: episode length:28
+ agent.py:459 INFO: Agent 0 Validation at step 3350 Time: 0.000
+ agent.py:396 INFO: episode length:29
+ agent.py:459 INFO: Agent 0 Validation at step 3400 Time: 0.000
+ agent.py:396 INFO: episode length:30
+ agent.py:396 INFO: episode length:31
+ agent.py:459 INFO: Agent 0 Validation at step 3450 Time: 0.000
+ agent.py:396 INFO: episode length:32
+ agent.py:396 INFO: episode length:33
+ agent.py:396 INFO: episode length:34
+ agent.py:459 INFO: Agent 0 Validation at step 3500 Time: 0.000
+ agent.py:396 INFO: episode length:35
+ agent.py:459 INFO: Agent 0 Validation at step 3550 Time: 0.000
+ agent.py:396 INFO: episode length:36
+ agent.py:396 INFO: episode length:37
+ agent.py:459 INFO: Agent 0 Validation at step 3600 Time: 0.000
+ agent.py:396 INFO: episode length:38
+ agent.py:396 INFO: episode length:39
+ agent.py:396 INFO: episode length:40
+ agent.py:459 INFO: Agent 0 Validation at step 3650 Time: 0.000
+ agent.py:471 INFO: Agent	 AVG JCT	 Makespan	 Reward
+ agent.py:472 INFO: 0 	 	 6.166 		 28.058 	 0.561
+ agent.py:396 INFO: episode length:41
+ agent.py:459 INFO: Agent 0 Validation at step 3700 Time: 0.000
+ agent.py:396 INFO: episode length:42
+ agent.py:396 INFO: episode length:43
+ agent.py:459 INFO: Agent 0 Validation at step 3750 Time: 0.000
+ agent.py:396 INFO: episode length:44
+ agent.py:459 INFO: Agent 0 Validation at step 3800 Time: 0.000
+ agent.py:396 INFO: episode length:45
+ agent.py:396 INFO: episode length:46
+ agent.py:459 INFO: Agent 0 Validation at step 3850 Time: 0.000
+ agent.py:396 INFO: episode length:47
+ agent.py:396 INFO: episode length:48
+ agent.py:459 INFO: Agent 0 Validation at step 3900 Time: 0.000
+ agent.py:396 INFO: episode length:49
+ agent.py:459 INFO: Agent 0 Validation at step 3950 Time: 0.000
+ agent.py:396 INFO: episode length:50
+ agent.py:396 INFO: episode length:51
+ agent.py:459 INFO: Agent 0 Validation at step 4000 Time: 0.000
+ agent.py:396 INFO: episode length:52
+ agent.py:396 INFO: episode length:53
+ agent.py:459 INFO: Agent 0 Validation at step 4050 Time: 0.000
+ agent.py:396 INFO: episode length:54
+ agent.py:459 INFO: Agent 0 Validation at step 4100 Time: 0.000
+ agent.py:396 INFO: episode length:55
+ agent.py:396 INFO: episode length:56
+ agent.py:459 INFO: Agent 0 Validation at step 4150 Time: 0.000
+ agent.py:396 INFO: episode length:57
+ agent.py:459 INFO: Agent 0 Validation at step 4200 Time: 0.000
+ agent.py:396 INFO: episode length:58
+ agent.py:396 INFO: episode length:59
+ agent.py:459 INFO: Agent 0 Validation at step 4250 Time: 0.000
+ agent.py:396 INFO: episode length:60
+ agent.py:396 INFO: episode length:61
+ agent.py:459 INFO: Agent 0 Validation at step 4300 Time: 0.000
+ agent.py:396 INFO: episode length:62
+ agent.py:459 INFO: Agent 0 Validation at step 4350 Time: 0.000
+ agent.py:396 INFO: episode length:63
+ agent.py:396 INFO: episode length:64
+ agent.py:459 INFO: Agent 0 Validation at step 4400 Time: 0.000
+ agent.py:396 INFO: episode length:65
+ agent.py:396 INFO: episode length:66
+ agent.py:459 INFO: Agent 0 Validation at step 4450 Time: 0.000
+ agent.py:396 INFO: episode length:67
+ agent.py:396 INFO: episode length:68
+ agent.py:459 INFO: Agent 0 Validation at step 4500 Time: 0.000
+ agent.py:396 INFO: episode length:69
+ agent.py:459 INFO: Agent 0 Validation at step 4550 Time: 0.000
+ agent.py:396 INFO: episode length:70
+ agent.py:396 INFO: episode length:71
+ agent.py:459 INFO: Agent 0 Validation at step 4600 Time: 0.000
+ agent.py:396 INFO: episode length:72
+ agent.py:459 INFO: Agent 0 Validation at step 4650 Time: 0.000
+ agent.py:396 INFO: episode length:73
+ agent.py:396 INFO: episode length:74
+ agent.py:459 INFO: Agent 0 Validation at step 4700 Time: 0.000
+ agent.py:396 INFO: episode length:75
+ agent.py:396 INFO: episode length:76
+ agent.py:396 INFO: episode length:77
+ agent.py:396 INFO: episode length:78
+ agent.py:459 INFO: Agent 0 Validation at step 4750 Time: 0.000
+ agent.py:396 INFO: episode length:79
+ agent.py:396 INFO: episode length:80
+ agent.py:459 INFO: Agent 0 Validation at step 4800 Time: 0.000
+ agent.py:471 INFO: Agent	 AVG JCT	 Makespan	 Reward
+ agent.py:472 INFO: 0 	 	 6.099 		 28.023 	 0.567
+ agent.py:396 INFO: episode length:81
+ agent.py:396 INFO: episode length:82
+ agent.py:459 INFO: Agent 0 Validation at step 4850 Time: 0.000
+ agent.py:396 INFO: episode length:83
+ agent.py:396 INFO: episode length:84
+ agent.py:459 INFO: Agent 0 Validation at step 4900 Time: 0.000
+ agent.py:396 INFO: episode length:85
+ agent.py:396 INFO: episode length:86
+ agent.py:459 INFO: Agent 0 Validation at step 4950 Time: 0.000
+ agent.py:396 INFO: episode length:87
+ agent.py:459 INFO: Agent 0 Validation at step 5000 Time: 0.000
+ agent.py:396 INFO: episode length:88
+ agent.py:396 INFO: episode length:89
+ agent.py:459 INFO: Agent 0 Validation at step 5050 Time: 0.000
+ agent.py:396 INFO: episode length:90
+ agent.py:396 INFO: episode length:91
+ agent.py:459 INFO: Agent 0 Validation at step 5100 Time: 0.000
+ agent.py:396 INFO: episode length:92
+ agent.py:459 INFO: Agent 0 Validation at step 5150 Time: 0.000
+ agent.py:396 INFO: episode length:93
+ agent.py:459 INFO: Agent 0 Validation at step 5200 Time: 0.000
+ agent.py:396 INFO: episode length:94
+ agent.py:396 INFO: episode length:95
+ agent.py:459 INFO: Agent 0 Validation at step 5250 Time: 0.000
+ agent.py:396 INFO: episode length:96
+ agent.py:396 INFO: episode length:97
+ agent.py:459 INFO: Agent 0 Validation at step 5300 Time: 0.000
+ agent.py:396 INFO: episode length:98
+ agent.py:396 INFO: episode length:99
+ agent.py:459 INFO: Agent 0 Validation at step 5350 Time: 0.000

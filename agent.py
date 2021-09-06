@@ -393,6 +393,7 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
     for epoch in range(pm.TOT_TRAIN_EPOCHS):
         logger.info("epoch:" + str(epoch))
         for episode in range(pm.TRAIN_EPOCH_SIZE):
+            logger.info("episode length:" + str(episode))
             tic = time.time()
             job_trace = copy.deepcopy(traces[episode])
             if pm.HEURISTIC == "DRF":
@@ -441,7 +442,7 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                     loss.backward()
                     policy_net.optimizer.step()  # Apply these gradients
 
-                    # logger.info("len(env.completed_jobs):" + str(len(env.completed_jobs)) + "loss :" + str(loss.item()))
+                    # logger.info("len(env.completed_jobs):  " + str(len(env.completed_jobs)) + "loss :" + str(loss.item()))
                     # for i in range(len(policy_grads)):
                     #     assert np.any(np.isnan(policy_grads[i])) is False
 
@@ -449,16 +450,15 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
                     # net_gradients_q.put(policy_grads)
 
                     # validation
-                    logger.info("hh"+str(global_step))
                     if pm.VAL_ON_MASTER and global_step % pm.VAL_INTERVAL == 0:
                         val_tic = time.time()
-                        val_loss = validate.val_loss(policy_net, validation_traces, logger, global_step)
-                        jct, makespan, reward = validate.val_jmr(policy_net, validation_traces, logger, global_step)
+                        # val_loss = validate.val_loss(policy_net, validation_traces, logger, global_step)
+                        # jct, makespan, reward = validate.val_jmr(policy_net, validation_traces, logger, global_step)
                         # stats_q.put(("val", val_loss, jct, makespan, reward))
                         val_toc = time.time()
-                        logger.info(
-                            "Agent " + str(id) + " Validation at step " + str(global_step) + " Time: " + '%.3f' % (
-                                    val_toc - val_tic))
+                        # logger.info(
+                        #     "Agent " + str(id) + " Validation at step " + str(global_step) + " Time: " + '%.3f' % (
+                        #             val_toc - val_tic))
                     # stats_q.put(("step:sl", entropy, loss))
 
                     global_step += 1
@@ -467,7 +467,7 @@ def sl_agent(net_weights_q, net_gradients_q, stats_q, id):
             avg_jct.append(jct)
             avg_makespan.append(makespan)
             avg_reward.append(reward)
-            if global_step % pm.DISP_INTERVAL == 0:
+            if episode % pm.DISP_INTERVAL == 0:
                 logger.info("Agent\t AVG JCT\t Makespan\t Reward")
                 logger.info(str(id) + " \t \t " + '%.3f' % (sum(avg_jct) / len(avg_jct)) + " \t\t" + " " + '%.3f' % (
                         1.0 * sum(avg_makespan) / len(avg_makespan)) \
